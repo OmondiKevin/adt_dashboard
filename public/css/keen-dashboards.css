@@ -100,3 +100,12 @@ body.application .return-link:hover,
 .white {
   color: #FFFFFF;
 }
+li {
+  border-right: 1px solid red;
+  margin: 0 9px 0 0;
+  padding: 0 9px 0 0;
+}
+
+li:last-child {
+  border-right: none;
+}

@@ -16,6 +16,8 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'public/lib/select2/css/select2.min.css';?>" />
 	<!--dataTables-->
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'public/lib/dataTables/css/jquery.dataTables.min.css';?>" />
+	<!-- custom css -->
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'public/css/custom.css';?>" />
 
 </head>
 	<body class="application">
@@ -34,7 +36,8 @@
 				      </div>
 			      <div class="navbar-collapse collapse">
 			        <ul class="nav navbar-nav navbar-left">
-			          <li><a href="#">PATIENTS</a></li>
+			          <li><a href="#">PATIENTS<span class="glyphicon glyphicon-menu-down"></span></a> 
+			          </li>
 			          <li><a href="#">COMMODITIES</a></li>
 			        </ul>
 			      </div>
