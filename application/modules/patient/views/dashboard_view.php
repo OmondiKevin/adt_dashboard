@@ -19,6 +19,7 @@
 	<!-- custom css -->
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'public/css/custom.css';?>" />
 
+
 </head>
 	<body class="application">
 	<!--navbar-->
@@ -232,8 +233,10 @@
 	<!--jquery-->
 	<script type="text/javascript" src="<?php echo base_url().'public/lib/jquery/dist/jquery.min.js';?>"></script>
 	<!--highcharts-->
-	<script src="<?php echo base_url().'public/lib/highcharts/highcharts.js';?>"></script>
+	<!-- <script src="<?php echo base_url().'public/lib/highcharts/highcharts.js';?>"></script> -->
+	<script src="https://code.highcharts.com/highcharts.js"></script>
 	<script src="<?php echo base_url().'public/lib/highcharts/exporting.js';?>"></script>
+	<script src="https://code.highcharts.com/modules/drilldown.js"></script>
 	<!--bootstrap-->
 	<script type="text/javascript" src="<?php echo base_url().'public/lib/bootstrap/dist/js/bootstrap.min.js';?>"></script>
 	<!--bootstrap-toggle-->
