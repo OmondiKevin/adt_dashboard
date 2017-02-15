@@ -22,37 +22,36 @@ class dashboard extends MX_Controller {
 	}
 
 	function getData(){
-		$query = $this->db->get('sources_count_view');
+		$query = $this->db->query('SELECT COUNT(source) AS counted , source from patients_enrolled_in_care Group by source;');
 
 		$result=$query->result();
 
-		$json_data = [];
+		$json_data = []; // initialize a json array
 		if($result){
 			foreach ($result as $res) {
 				$json_data['main'][] = [
-					'name'	=> $res->name,
-					'y'		=>	$res->number_of_patients,
-					'drilldown'	=>	true
+					'name'	=> $res->source, //x axis
+					'y'		=>	$res->counted, // y axis
+					'drilldown'	=>	$res->source 
 				];
 
-				$sql = "SELECT gender, count(*) AS No FROM tbl_patient WHERE source_id = $res->source_id GROUP BY gender;";
-				
-				$source_query = $this->db->query($sql);
-				$source_result = $source_query->result();
-
-				$source_data = [];
-				foreach ($source_result as $something) {
-					$inner_data =[];
-
-					$inner_data[] = $something->gender;
-					$inner_data[] = $something->No;
-					array_push($source_data, $inner_data);
+				$sql = "SELECT
+							source,
+							SUM(IF(gender = 'male', 1, 0)) as male,
+							SUM(IF(gender = 'female', 1, 0)) as female
+						FROM patients_enrolled_in_care
+						GROUP BY source";
+				$drilldown = $this->db->query($sql)->result();
+				foreach ($drilldown as $drill) {
+					$json_data['drilldown'][$drill->source] = [
+						'name'	=>	$drill->source,
+						'id'	=>	$drill->source,
+						'data'	=>	[
+							['male', $drill->male],
+							['female', $drill->female]
+						]
+					];
 				}
-
-				$json_data['drilldown'][$res->name] = [
-					'name'	=>	$res->name,
-					'data'	=>	$source_data
-				];
 				
 			}
 		}
