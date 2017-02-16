@@ -26,7 +26,7 @@ $(document).ready(function(){
 		        }
 		    },
 		    title: {
-		        text: 'Patients enrolled in care'
+		        text: 'PATIENTS ENROLLED IN CARE'
 		    },
 		    xAxis: {
 		        type: 'category'
