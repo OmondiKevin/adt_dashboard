@@ -51,6 +51,24 @@ class dashboard extends MX_Controller {
 							['female', $drill->female]
 						]
 					];
+
+				$drill_age_sql = "SELECT 
+							    gender,
+							    SUM(IF(age > 14, 1, 0)) AS adult,
+							    SUM(IF(age <= 14, 1, 0)) AS paeds
+							FROM
+							    patients_enrolled_in_care
+							GROUP BY gender";
+				$drill_age = $this->db->query($drill_age_sql)->result();
+				foreach ($drilldown as $drill) {
+					$json_data['drilldown'][$drill->source] = [
+						'name'	=>	$drill->source,
+						'id'	=>	$drill->source,
+						'data'	=>	[
+							['Adult', $drill->adult],
+							['Paediatric', $drill->paeds]
+						]
+					];
 				}
 				
 			}
