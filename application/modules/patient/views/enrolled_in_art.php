@@ -3,7 +3,7 @@ chart_title = 'PATIENTS ENROLLED IN ART';
 number_of_patients = 'Number of Patients'
 patient_source = 'Patient Source'
 // Create the chart
-Highcharts.chart('enrolled_in_art', {
+Highcharts.chart('', {
     chart: {
         type: 'column'
     },

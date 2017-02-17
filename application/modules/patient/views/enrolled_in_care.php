@@ -31,7 +31,11 @@ $(document).ready(function(){
 		    xAxis: {
 		        type: 'category'
 		    },
-
+		    yAxis: {
+		    	title: {
+		    		text: 'Patients'
+		    	}
+		    },
 		    legend: {
 		        enabled: false
 		    },
@@ -46,13 +50,13 @@ $(document).ready(function(){
 		    },
 
 		    series: [{
-		        name: 'Things',
+		        name: 'Patients Enrolled in Care',
 		        colorByPoint: true,
 		        data: data.main
 		    }],
 
 		    drilldown: {
-		        series: []
+		        series: data.drilldown
 		    }
 		});
 	});

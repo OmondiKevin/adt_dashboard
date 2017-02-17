@@ -22,60 +22,10 @@ class dashboard extends MX_Controller {
 	}
 
 	function getData(){
-		$query = $this->db->query('SELECT COUNT(source) AS counted , source from patients_enrolled_in_care Group by source;');
-
-		$result=$query->result();
-
-		$json_data = []; // initialize a json array
-		if($result){
-			foreach ($result as $res) {
-				$json_data['main'][] = [
-					'name'	=> $res->source, //x axis
-					'y'		=>	$res->counted, // y axis
-					'drilldown'	=>	$res->source 
-				];
-
-				$sql = "SELECT
-							source,
-							SUM(IF(gender = 'male', 1, 0)) as male,
-							SUM(IF(gender = 'female', 1, 0)) as female
-						FROM patients_enrolled_in_care
-						GROUP BY source";
-				$drilldown = $this->db->query($sql)->result();
-				foreach ($drilldown as $drill) {
-					$json_data['drilldown'][$drill->source] = [
-						'name'	=>	$drill->source,
-						'id'	=>	$drill->source,
-						'data'	=>	[
-							['male', $drill->male],
-							['female', $drill->female]
-						]
-					];
-
-				$drill_age_sql = "SELECT 
-							    gender,
-							    SUM(IF(age > 14, 1, 0)) AS adult,
-							    SUM(IF(age <= 14, 1, 0)) AS paeds
-							FROM
-							    patients_enrolled_in_care
-							GROUP BY gender";
-				$drill_age = $this->db->query($drill_age_sql)->result();
-				foreach ($drilldown as $drill) {
-					$json_data['drilldown'][$drill->source] = [
-						'name'	=>	$drill->source,
-						'id'	=>	$drill->source,
-						'data'	=>	[
-							['Adult', $drill->adult],
-							['Paediatric', $drill->paeds]
-						]
-					];
-				}
-				
-			}
-		}
-
-		$this->output
-        		->set_content_type('application/json')
-        		->set_output(json_encode($json_data, JSON_NUMERIC_CHECK));
+		$json_data = array();
+		$json_data['main'] = $this->enrolled_care_model->get_source_total();
+		$json_data['drilldown'] = $this->enrolled_care_model->get_source_drilldown_total();
+		$this->output->set_content_type('application/json')->set_output(json_encode($json_data, JSON_NUMERIC_CHECK));
 	}
+
 }
