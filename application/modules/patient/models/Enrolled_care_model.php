@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Enrolled_care_model extends CI_Model {
-
+	var $drilldown_data = array();
 	public function get_source_total(){
 		$sql = "SELECT LOWER(REPLACE(source, ' ', '_')) name, COUNT(*) y, LOWER(REPLACE(source, ' ', '_')) drilldown
 				FROM patients_enrolled_in_care
@@ -11,10 +11,10 @@ class Enrolled_care_model extends CI_Model {
 		return $query->result_array();
 	}
 
-	public function get_source_drilldown_total(){
+	public function get_source_drilldown_gender(){
 		$count = 0;
 		$formatted_data = array();
-		//$tmp_data = array();
+		$tmp_data = array();
 		$sql = "SELECT
 					LOWER(REPLACE(source, ' ', '_')) source,
 					COUNT(IF(gender = 'male', 1, NULL)) as male,
@@ -35,16 +35,17 @@ class Enrolled_care_model extends CI_Model {
 					'drilldown' => $total['source'].'_'.$gender
 				);
 				//Get age data
-				$tmp_data[] = $this->get_source_gender_age_total($total['source'], $gender);
+				$this->drilldown_data[] = $this->get_source_drilldown_age($total['source'], $gender);
 			}
 			$count++;
 		}
 
-		$formatted_data = array_merge($formatted_data, $tmp_data);
+		$formatted_data = array_merge($formatted_data, $this->drilldown_data);
 		return $formatted_data;
 	}
 
-	public function get_source_gender_age_total($source, $gender){
+	public function get_source_drilldown_age($source, $gender){
+		$tmp_data = array();
 		$formatted_age_data = array();
 		$sql = "SELECT
 					COUNT(IF(age_category = 'adult', 1, NULL)) as adult,
@@ -65,9 +66,34 @@ class Enrolled_care_model extends CI_Model {
 					'y' => $total[$age],
 					'drilldown' => $source.'_'.$gender.'_'.$age
 				);
+				$this->drilldown_data[] = $this->get_source_drilldown_service($source, $gender, $age);
 			}
 		}
 		return $formatted_age_data;
+	}
+
+	public function get_source_drilldown_service($source, $gender, $age){
+		$formatted_service_data = array();
+		$sql = "SELECT
+					LOWER(REPLACE(service, ' ', '_')) service,
+					COUNT(*) as total
+				FROM patients_enrolled_in_care
+				WHERE LOWER(REPLACE(source, ' ', '_')) = ?
+				AND gender = ?
+				AND age_category = ?";
+		$totals = $this->db->query($sql, array($source, $gender, $age))->result_array();
+		//Format data
+		$formatted_service_data['id'] = $source.'_'.$gender.'_'.$age;
+		$formatted_service_data['name'] = $source.'_'.$gender.'_'.$age;
+		$formatted_service_data['colorByPoint'] = true;
+		//Loop through totals
+		foreach($totals as $total){
+			$formatted_service_data['data'][] = array(
+				'name'=> strtoupper($total['service']),
+				'y' => $total['total']
+			);
+		}
+		return $formatted_service_data;
 	}
 
 }

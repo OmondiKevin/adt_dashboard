@@ -33,7 +33,7 @@ $(document).ready(function(){
 		    },
 		    yAxis: {
 		    	title: {
-		    		text: 'Patients'
+		    		text: 'No. of Patients'
 		    	}
 		    },
 		    legend: {
@@ -50,7 +50,7 @@ $(document).ready(function(){
 		    },
 
 		    series: [{
-		        name: 'Patients Enrolled in Care',
+		        name: 'Sources',
 		        colorByPoint: true,
 		        data: data.main
 		    }],

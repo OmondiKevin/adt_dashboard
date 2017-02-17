@@ -2931,3 +2931,1408 @@ INFO - 2017-02-17 12:58:04 --> Controller Class Initialized
 DEBUG - 2017-02-17 12:58:04 --> dashboard MX_Controller Initialized
 INFO - 2017-02-17 12:58:04 --> Final output sent to browser
 DEBUG - 2017-02-17 12:58:04 --> Total execution time: 0.0707
+INFO - 2017-02-17 14:00:24 --> Config Class Initialized
+INFO - 2017-02-17 14:00:24 --> Hooks Class Initialized
+DEBUG - 2017-02-17 14:00:24 --> UTF-8 Support Enabled
+INFO - 2017-02-17 14:00:24 --> Utf8 Class Initialized
+INFO - 2017-02-17 14:00:24 --> URI Class Initialized
+INFO - 2017-02-17 14:00:24 --> Router Class Initialized
+INFO - 2017-02-17 14:00:24 --> Output Class Initialized
+INFO - 2017-02-17 14:00:24 --> Security Class Initialized
+DEBUG - 2017-02-17 14:00:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 14:00:24 --> Input Class Initialized
+INFO - 2017-02-17 14:00:24 --> Language Class Initialized
+INFO - 2017-02-17 14:00:24 --> Language Class Initialized
+INFO - 2017-02-17 14:00:24 --> Config Class Initialized
+INFO - 2017-02-17 14:00:24 --> Loader Class Initialized
+INFO - 2017-02-17 14:00:24 --> Helper loaded: url_helper
+INFO - 2017-02-17 14:00:24 --> Database Driver Class Initialized
+INFO - 2017-02-17 14:00:24 --> Model Class Initialized
+DEBUG - 2017-02-17 14:00:24 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 14:00:24 --> Model Class Initialized
+INFO - 2017-02-17 14:00:24 --> Controller Class Initialized
+DEBUG - 2017-02-17 14:00:24 --> dashboard MX_Controller Initialized
+INFO - 2017-02-17 14:00:24 --> Final output sent to browser
+DEBUG - 2017-02-17 14:00:24 --> Total execution time: 0.2048
+INFO - 2017-02-17 14:00:36 --> Config Class Initialized
+INFO - 2017-02-17 14:00:36 --> Hooks Class Initialized
+DEBUG - 2017-02-17 14:00:36 --> UTF-8 Support Enabled
+INFO - 2017-02-17 14:00:36 --> Utf8 Class Initialized
+INFO - 2017-02-17 14:00:36 --> URI Class Initialized
+DEBUG - 2017-02-17 14:00:36 --> No URI present. Default controller set.
+INFO - 2017-02-17 14:00:36 --> Router Class Initialized
+INFO - 2017-02-17 14:00:36 --> Output Class Initialized
+INFO - 2017-02-17 14:00:36 --> Security Class Initialized
+DEBUG - 2017-02-17 14:00:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 14:00:36 --> Input Class Initialized
+INFO - 2017-02-17 14:00:36 --> Language Class Initialized
+INFO - 2017-02-17 14:00:36 --> Language Class Initialized
+INFO - 2017-02-17 14:00:36 --> Config Class Initialized
+INFO - 2017-02-17 14:00:36 --> Loader Class Initialized
+INFO - 2017-02-17 14:00:36 --> Helper loaded: url_helper
+INFO - 2017-02-17 14:00:36 --> Database Driver Class Initialized
+INFO - 2017-02-17 14:00:36 --> Model Class Initialized
+DEBUG - 2017-02-17 14:00:36 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 14:00:36 --> Model Class Initialized
+INFO - 2017-02-17 14:00:36 --> Controller Class Initialized
+DEBUG - 2017-02-17 14:00:36 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 14:00:36 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/dashboard_view.php
+INFO - 2017-02-17 14:00:36 --> Final output sent to browser
+DEBUG - 2017-02-17 14:00:36 --> Total execution time: 0.0541
+INFO - 2017-02-17 14:00:36 --> Config Class Initialized
+INFO - 2017-02-17 14:00:36 --> Hooks Class Initialized
+DEBUG - 2017-02-17 14:00:36 --> UTF-8 Support Enabled
+INFO - 2017-02-17 14:00:36 --> Utf8 Class Initialized
+INFO - 2017-02-17 14:00:36 --> Config Class Initialized
+INFO - 2017-02-17 14:00:36 --> URI Class Initialized
+INFO - 2017-02-17 14:00:36 --> Hooks Class Initialized
+INFO - 2017-02-17 14:00:36 --> Router Class Initialized
+DEBUG - 2017-02-17 14:00:36 --> UTF-8 Support Enabled
+INFO - 2017-02-17 14:00:36 --> Utf8 Class Initialized
+INFO - 2017-02-17 14:00:36 --> URI Class Initialized
+INFO - 2017-02-17 14:00:36 --> Output Class Initialized
+INFO - 2017-02-17 14:00:36 --> Security Class Initialized
+DEBUG - 2017-02-17 14:00:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 14:00:36 --> Router Class Initialized
+INFO - 2017-02-17 14:00:36 --> Input Class Initialized
+INFO - 2017-02-17 14:00:36 --> Language Class Initialized
+INFO - 2017-02-17 14:00:36 --> Output Class Initialized
+INFO - 2017-02-17 14:00:36 --> Security Class Initialized
+INFO - 2017-02-17 14:00:36 --> Language Class Initialized
+INFO - 2017-02-17 14:00:36 --> Config Class Initialized
+DEBUG - 2017-02-17 14:00:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 14:00:36 --> Input Class Initialized
+INFO - 2017-02-17 14:00:36 --> Language Class Initialized
+INFO - 2017-02-17 14:00:36 --> Loader Class Initialized
+INFO - 2017-02-17 14:00:36 --> Language Class Initialized
+INFO - 2017-02-17 14:00:36 --> Config Class Initialized
+INFO - 2017-02-17 14:00:36 --> Helper loaded: url_helper
+INFO - 2017-02-17 14:00:36 --> Loader Class Initialized
+INFO - 2017-02-17 14:00:36 --> Helper loaded: url_helper
+INFO - 2017-02-17 14:00:36 --> Database Driver Class Initialized
+INFO - 2017-02-17 14:00:36 --> Model Class Initialized
+DEBUG - 2017-02-17 14:00:36 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 14:00:36 --> Model Class Initialized
+INFO - 2017-02-17 14:00:36 --> Controller Class Initialized
+DEBUG - 2017-02-17 14:00:36 --> dashboard MX_Controller Initialized
+INFO - 2017-02-17 14:00:36 --> Database Driver Class Initialized
+DEBUG - 2017-02-17 14:00:36 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_art.php
+INFO - 2017-02-17 14:00:36 --> Final output sent to browser
+DEBUG - 2017-02-17 14:00:36 --> Total execution time: 0.0680
+INFO - 2017-02-17 14:00:36 --> Model Class Initialized
+DEBUG - 2017-02-17 14:00:36 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 14:00:36 --> Model Class Initialized
+INFO - 2017-02-17 14:00:36 --> Controller Class Initialized
+DEBUG - 2017-02-17 14:00:36 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 14:00:36 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_care.php
+INFO - 2017-02-17 14:00:36 --> Final output sent to browser
+DEBUG - 2017-02-17 14:00:36 --> Total execution time: 0.0701
+INFO - 2017-02-17 14:00:36 --> Config Class Initialized
+INFO - 2017-02-17 14:00:36 --> Hooks Class Initialized
+DEBUG - 2017-02-17 14:00:36 --> UTF-8 Support Enabled
+INFO - 2017-02-17 14:00:36 --> Utf8 Class Initialized
+INFO - 2017-02-17 14:00:36 --> URI Class Initialized
+INFO - 2017-02-17 14:00:36 --> Router Class Initialized
+INFO - 2017-02-17 14:00:36 --> Output Class Initialized
+INFO - 2017-02-17 14:00:36 --> Security Class Initialized
+DEBUG - 2017-02-17 14:00:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 14:00:36 --> Input Class Initialized
+INFO - 2017-02-17 14:00:36 --> Language Class Initialized
+INFO - 2017-02-17 14:00:36 --> Language Class Initialized
+INFO - 2017-02-17 14:00:36 --> Config Class Initialized
+INFO - 2017-02-17 14:00:36 --> Loader Class Initialized
+INFO - 2017-02-17 14:00:36 --> Helper loaded: url_helper
+INFO - 2017-02-17 14:00:36 --> Database Driver Class Initialized
+INFO - 2017-02-17 14:00:36 --> Model Class Initialized
+DEBUG - 2017-02-17 14:00:36 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 14:00:36 --> Model Class Initialized
+INFO - 2017-02-17 14:00:36 --> Controller Class Initialized
+DEBUG - 2017-02-17 14:00:36 --> dashboard MX_Controller Initialized
+INFO - 2017-02-17 14:00:36 --> Final output sent to browser
+DEBUG - 2017-02-17 14:00:36 --> Total execution time: 0.0952
+INFO - 2017-02-17 14:02:34 --> Config Class Initialized
+INFO - 2017-02-17 14:02:34 --> Hooks Class Initialized
+DEBUG - 2017-02-17 14:02:34 --> UTF-8 Support Enabled
+INFO - 2017-02-17 14:02:34 --> Utf8 Class Initialized
+INFO - 2017-02-17 14:02:34 --> URI Class Initialized
+DEBUG - 2017-02-17 14:02:34 --> No URI present. Default controller set.
+INFO - 2017-02-17 14:02:34 --> Router Class Initialized
+INFO - 2017-02-17 14:02:34 --> Output Class Initialized
+INFO - 2017-02-17 14:02:34 --> Security Class Initialized
+DEBUG - 2017-02-17 14:02:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 14:02:34 --> Input Class Initialized
+INFO - 2017-02-17 14:02:34 --> Language Class Initialized
+INFO - 2017-02-17 14:02:34 --> Language Class Initialized
+INFO - 2017-02-17 14:02:34 --> Config Class Initialized
+INFO - 2017-02-17 14:02:34 --> Loader Class Initialized
+INFO - 2017-02-17 14:02:34 --> Helper loaded: url_helper
+INFO - 2017-02-17 14:02:34 --> Database Driver Class Initialized
+INFO - 2017-02-17 14:02:34 --> Model Class Initialized
+DEBUG - 2017-02-17 14:02:34 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 14:02:34 --> Model Class Initialized
+INFO - 2017-02-17 14:02:34 --> Controller Class Initialized
+DEBUG - 2017-02-17 14:02:34 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 14:02:34 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/dashboard_view.php
+INFO - 2017-02-17 14:02:34 --> Final output sent to browser
+DEBUG - 2017-02-17 14:02:34 --> Total execution time: 0.0481
+INFO - 2017-02-17 14:02:34 --> Config Class Initialized
+INFO - 2017-02-17 14:02:34 --> Hooks Class Initialized
+INFO - 2017-02-17 14:02:34 --> Config Class Initialized
+INFO - 2017-02-17 14:02:34 --> Hooks Class Initialized
+DEBUG - 2017-02-17 14:02:34 --> UTF-8 Support Enabled
+INFO - 2017-02-17 14:02:34 --> Utf8 Class Initialized
+INFO - 2017-02-17 14:02:34 --> URI Class Initialized
+DEBUG - 2017-02-17 14:02:34 --> UTF-8 Support Enabled
+INFO - 2017-02-17 14:02:34 --> Utf8 Class Initialized
+INFO - 2017-02-17 14:02:34 --> URI Class Initialized
+INFO - 2017-02-17 14:02:34 --> Router Class Initialized
+INFO - 2017-02-17 14:02:34 --> Output Class Initialized
+INFO - 2017-02-17 14:02:34 --> Router Class Initialized
+INFO - 2017-02-17 14:02:34 --> Security Class Initialized
+INFO - 2017-02-17 14:02:34 --> Output Class Initialized
+DEBUG - 2017-02-17 14:02:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 14:02:34 --> Input Class Initialized
+INFO - 2017-02-17 14:02:34 --> Security Class Initialized
+INFO - 2017-02-17 14:02:34 --> Language Class Initialized
+DEBUG - 2017-02-17 14:02:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 14:02:34 --> Input Class Initialized
+INFO - 2017-02-17 14:02:34 --> Language Class Initialized
+INFO - 2017-02-17 14:02:34 --> Language Class Initialized
+INFO - 2017-02-17 14:02:34 --> Config Class Initialized
+INFO - 2017-02-17 14:02:34 --> Language Class Initialized
+INFO - 2017-02-17 14:02:34 --> Config Class Initialized
+INFO - 2017-02-17 14:02:34 --> Loader Class Initialized
+INFO - 2017-02-17 14:02:34 --> Helper loaded: url_helper
+INFO - 2017-02-17 14:02:34 --> Loader Class Initialized
+INFO - 2017-02-17 14:02:34 --> Helper loaded: url_helper
+INFO - 2017-02-17 14:02:34 --> Database Driver Class Initialized
+INFO - 2017-02-17 14:02:34 --> Database Driver Class Initialized
+INFO - 2017-02-17 14:02:34 --> Model Class Initialized
+DEBUG - 2017-02-17 14:02:34 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 14:02:34 --> Model Class Initialized
+INFO - 2017-02-17 14:02:34 --> Model Class Initialized
+INFO - 2017-02-17 14:02:34 --> Controller Class Initialized
+DEBUG - 2017-02-17 14:02:34 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+DEBUG - 2017-02-17 14:02:34 --> dashboard MX_Controller Initialized
+INFO - 2017-02-17 14:02:34 --> Model Class Initialized
+INFO - 2017-02-17 14:02:34 --> Controller Class Initialized
+DEBUG - 2017-02-17 14:02:34 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_art.php
+DEBUG - 2017-02-17 14:02:34 --> dashboard MX_Controller Initialized
+INFO - 2017-02-17 14:02:34 --> Final output sent to browser
+DEBUG - 2017-02-17 14:02:34 --> Total execution time: 0.0683
+DEBUG - 2017-02-17 14:02:34 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_care.php
+INFO - 2017-02-17 14:02:34 --> Final output sent to browser
+DEBUG - 2017-02-17 14:02:34 --> Total execution time: 0.0674
+INFO - 2017-02-17 14:02:35 --> Config Class Initialized
+INFO - 2017-02-17 14:02:35 --> Hooks Class Initialized
+DEBUG - 2017-02-17 14:02:35 --> UTF-8 Support Enabled
+INFO - 2017-02-17 14:02:35 --> Utf8 Class Initialized
+INFO - 2017-02-17 14:02:35 --> URI Class Initialized
+INFO - 2017-02-17 14:02:35 --> Router Class Initialized
+INFO - 2017-02-17 14:02:35 --> Output Class Initialized
+INFO - 2017-02-17 14:02:35 --> Security Class Initialized
+DEBUG - 2017-02-17 14:02:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 14:02:35 --> Input Class Initialized
+INFO - 2017-02-17 14:02:35 --> Language Class Initialized
+INFO - 2017-02-17 14:02:35 --> Language Class Initialized
+INFO - 2017-02-17 14:02:35 --> Config Class Initialized
+INFO - 2017-02-17 14:02:35 --> Loader Class Initialized
+INFO - 2017-02-17 14:02:35 --> Helper loaded: url_helper
+INFO - 2017-02-17 14:02:35 --> Database Driver Class Initialized
+INFO - 2017-02-17 14:02:35 --> Model Class Initialized
+DEBUG - 2017-02-17 14:02:35 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 14:02:35 --> Model Class Initialized
+INFO - 2017-02-17 14:02:35 --> Controller Class Initialized
+DEBUG - 2017-02-17 14:02:35 --> dashboard MX_Controller Initialized
+INFO - 2017-02-17 14:02:35 --> Final output sent to browser
+DEBUG - 2017-02-17 14:02:35 --> Total execution time: 0.0839
+INFO - 2017-02-17 14:02:44 --> Config Class Initialized
+INFO - 2017-02-17 14:02:44 --> Hooks Class Initialized
+DEBUG - 2017-02-17 14:02:44 --> UTF-8 Support Enabled
+INFO - 2017-02-17 14:02:44 --> Utf8 Class Initialized
+INFO - 2017-02-17 14:02:44 --> URI Class Initialized
+INFO - 2017-02-17 14:02:44 --> Router Class Initialized
+INFO - 2017-02-17 14:02:44 --> Output Class Initialized
+INFO - 2017-02-17 14:02:44 --> Security Class Initialized
+DEBUG - 2017-02-17 14:02:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 14:02:44 --> Input Class Initialized
+INFO - 2017-02-17 14:02:44 --> Language Class Initialized
+INFO - 2017-02-17 14:02:44 --> Language Class Initialized
+INFO - 2017-02-17 14:02:44 --> Config Class Initialized
+INFO - 2017-02-17 14:02:44 --> Loader Class Initialized
+INFO - 2017-02-17 14:02:44 --> Helper loaded: url_helper
+INFO - 2017-02-17 14:02:44 --> Database Driver Class Initialized
+INFO - 2017-02-17 14:02:44 --> Model Class Initialized
+DEBUG - 2017-02-17 14:02:44 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 14:02:44 --> Model Class Initialized
+INFO - 2017-02-17 14:02:44 --> Controller Class Initialized
+DEBUG - 2017-02-17 14:02:44 --> dashboard MX_Controller Initialized
+INFO - 2017-02-17 14:02:44 --> Final output sent to browser
+DEBUG - 2017-02-17 14:02:44 --> Total execution time: 0.0673
+INFO - 2017-02-17 14:51:36 --> Config Class Initialized
+INFO - 2017-02-17 14:51:36 --> Hooks Class Initialized
+DEBUG - 2017-02-17 14:51:36 --> UTF-8 Support Enabled
+INFO - 2017-02-17 14:51:36 --> Utf8 Class Initialized
+INFO - 2017-02-17 14:51:36 --> URI Class Initialized
+DEBUG - 2017-02-17 14:51:36 --> No URI present. Default controller set.
+INFO - 2017-02-17 14:51:36 --> Router Class Initialized
+INFO - 2017-02-17 14:51:36 --> Output Class Initialized
+INFO - 2017-02-17 14:51:36 --> Security Class Initialized
+DEBUG - 2017-02-17 14:51:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 14:51:36 --> Input Class Initialized
+INFO - 2017-02-17 14:51:36 --> Language Class Initialized
+INFO - 2017-02-17 14:51:36 --> Language Class Initialized
+INFO - 2017-02-17 14:51:36 --> Config Class Initialized
+INFO - 2017-02-17 14:51:37 --> Loader Class Initialized
+INFO - 2017-02-17 14:51:37 --> Helper loaded: url_helper
+INFO - 2017-02-17 14:51:37 --> Database Driver Class Initialized
+INFO - 2017-02-17 14:51:37 --> Model Class Initialized
+DEBUG - 2017-02-17 14:51:37 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 14:51:37 --> Model Class Initialized
+INFO - 2017-02-17 14:51:37 --> Controller Class Initialized
+DEBUG - 2017-02-17 14:51:37 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 14:51:37 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/dashboard_view.php
+INFO - 2017-02-17 14:51:37 --> Final output sent to browser
+DEBUG - 2017-02-17 14:51:37 --> Total execution time: 0.1274
+INFO - 2017-02-17 14:51:38 --> Config Class Initialized
+INFO - 2017-02-17 14:51:38 --> Hooks Class Initialized
+INFO - 2017-02-17 14:51:38 --> Config Class Initialized
+INFO - 2017-02-17 14:51:38 --> Hooks Class Initialized
+DEBUG - 2017-02-17 14:51:38 --> UTF-8 Support Enabled
+INFO - 2017-02-17 14:51:38 --> Utf8 Class Initialized
+DEBUG - 2017-02-17 14:51:38 --> UTF-8 Support Enabled
+INFO - 2017-02-17 14:51:38 --> URI Class Initialized
+INFO - 2017-02-17 14:51:38 --> Utf8 Class Initialized
+INFO - 2017-02-17 14:51:38 --> URI Class Initialized
+INFO - 2017-02-17 14:51:38 --> Router Class Initialized
+INFO - 2017-02-17 14:51:38 --> Router Class Initialized
+INFO - 2017-02-17 14:51:38 --> Output Class Initialized
+INFO - 2017-02-17 14:51:38 --> Output Class Initialized
+INFO - 2017-02-17 14:51:38 --> Security Class Initialized
+DEBUG - 2017-02-17 14:51:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 14:51:38 --> Security Class Initialized
+INFO - 2017-02-17 14:51:38 --> Input Class Initialized
+INFO - 2017-02-17 14:51:38 --> Language Class Initialized
+DEBUG - 2017-02-17 14:51:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 14:51:38 --> Input Class Initialized
+INFO - 2017-02-17 14:51:38 --> Language Class Initialized
+INFO - 2017-02-17 14:51:38 --> Language Class Initialized
+INFO - 2017-02-17 14:51:38 --> Config Class Initialized
+INFO - 2017-02-17 14:51:38 --> Language Class Initialized
+INFO - 2017-02-17 14:51:38 --> Config Class Initialized
+INFO - 2017-02-17 14:51:38 --> Loader Class Initialized
+INFO - 2017-02-17 14:51:38 --> Helper loaded: url_helper
+INFO - 2017-02-17 14:51:38 --> Loader Class Initialized
+INFO - 2017-02-17 14:51:38 --> Helper loaded: url_helper
+INFO - 2017-02-17 14:51:38 --> Database Driver Class Initialized
+INFO - 2017-02-17 14:51:38 --> Model Class Initialized
+INFO - 2017-02-17 14:51:38 --> Database Driver Class Initialized
+DEBUG - 2017-02-17 14:51:38 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 14:51:38 --> Model Class Initialized
+INFO - 2017-02-17 14:51:38 --> Controller Class Initialized
+DEBUG - 2017-02-17 14:51:38 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 14:51:38 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_care.php
+INFO - 2017-02-17 14:51:38 --> Final output sent to browser
+DEBUG - 2017-02-17 14:51:38 --> Total execution time: 0.0678
+INFO - 2017-02-17 14:51:38 --> Model Class Initialized
+DEBUG - 2017-02-17 14:51:38 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 14:51:38 --> Model Class Initialized
+INFO - 2017-02-17 14:51:38 --> Controller Class Initialized
+DEBUG - 2017-02-17 14:51:38 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 14:51:38 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_art.php
+INFO - 2017-02-17 14:51:38 --> Final output sent to browser
+DEBUG - 2017-02-17 14:51:38 --> Total execution time: 0.0728
+INFO - 2017-02-17 14:51:38 --> Config Class Initialized
+INFO - 2017-02-17 14:51:38 --> Hooks Class Initialized
+DEBUG - 2017-02-17 14:51:38 --> UTF-8 Support Enabled
+INFO - 2017-02-17 14:51:38 --> Utf8 Class Initialized
+INFO - 2017-02-17 14:51:38 --> URI Class Initialized
+INFO - 2017-02-17 14:51:38 --> Router Class Initialized
+INFO - 2017-02-17 14:51:38 --> Output Class Initialized
+INFO - 2017-02-17 14:51:38 --> Security Class Initialized
+DEBUG - 2017-02-17 14:51:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 14:51:38 --> Input Class Initialized
+INFO - 2017-02-17 14:51:38 --> Language Class Initialized
+INFO - 2017-02-17 14:51:38 --> Language Class Initialized
+INFO - 2017-02-17 14:51:38 --> Config Class Initialized
+INFO - 2017-02-17 14:51:38 --> Loader Class Initialized
+INFO - 2017-02-17 14:51:38 --> Helper loaded: url_helper
+INFO - 2017-02-17 14:51:38 --> Database Driver Class Initialized
+INFO - 2017-02-17 14:51:38 --> Model Class Initialized
+DEBUG - 2017-02-17 14:51:38 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 14:51:38 --> Model Class Initialized
+INFO - 2017-02-17 14:51:38 --> Controller Class Initialized
+DEBUG - 2017-02-17 14:51:38 --> dashboard MX_Controller Initialized
+INFO - 2017-02-17 14:51:38 --> Final output sent to browser
+DEBUG - 2017-02-17 14:51:38 --> Total execution time: 0.1189
+INFO - 2017-02-17 14:51:51 --> Config Class Initialized
+INFO - 2017-02-17 14:51:51 --> Hooks Class Initialized
+DEBUG - 2017-02-17 14:51:51 --> UTF-8 Support Enabled
+INFO - 2017-02-17 14:51:51 --> Utf8 Class Initialized
+INFO - 2017-02-17 14:51:51 --> URI Class Initialized
+INFO - 2017-02-17 14:51:51 --> Router Class Initialized
+INFO - 2017-02-17 14:51:51 --> Output Class Initialized
+INFO - 2017-02-17 14:51:51 --> Security Class Initialized
+DEBUG - 2017-02-17 14:51:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 14:51:51 --> Input Class Initialized
+INFO - 2017-02-17 14:51:51 --> Language Class Initialized
+INFO - 2017-02-17 14:51:51 --> Language Class Initialized
+INFO - 2017-02-17 14:51:51 --> Config Class Initialized
+INFO - 2017-02-17 14:51:51 --> Loader Class Initialized
+INFO - 2017-02-17 14:51:51 --> Helper loaded: url_helper
+INFO - 2017-02-17 14:51:51 --> Database Driver Class Initialized
+INFO - 2017-02-17 14:51:51 --> Model Class Initialized
+DEBUG - 2017-02-17 14:51:51 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 14:51:51 --> Model Class Initialized
+INFO - 2017-02-17 14:51:51 --> Controller Class Initialized
+DEBUG - 2017-02-17 14:51:51 --> dashboard MX_Controller Initialized
+INFO - 2017-02-17 14:51:51 --> Final output sent to browser
+DEBUG - 2017-02-17 14:51:51 --> Total execution time: 0.0652
+INFO - 2017-02-17 15:03:24 --> Config Class Initialized
+INFO - 2017-02-17 15:03:24 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:03:24 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:03:24 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:03:24 --> URI Class Initialized
+DEBUG - 2017-02-17 15:03:24 --> No URI present. Default controller set.
+INFO - 2017-02-17 15:03:24 --> Router Class Initialized
+INFO - 2017-02-17 15:03:24 --> Output Class Initialized
+INFO - 2017-02-17 15:03:24 --> Security Class Initialized
+DEBUG - 2017-02-17 15:03:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:03:24 --> Input Class Initialized
+INFO - 2017-02-17 15:03:24 --> Language Class Initialized
+INFO - 2017-02-17 15:03:24 --> Language Class Initialized
+INFO - 2017-02-17 15:03:24 --> Config Class Initialized
+INFO - 2017-02-17 15:03:24 --> Loader Class Initialized
+INFO - 2017-02-17 15:03:24 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:03:24 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:03:24 --> Model Class Initialized
+INFO - 2017-02-17 15:03:40 --> Config Class Initialized
+INFO - 2017-02-17 15:03:40 --> Hooks Class Initialized
+INFO - 2017-02-17 15:03:40 --> Config Class Initialized
+INFO - 2017-02-17 15:03:40 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:03:40 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:03:40 --> Utf8 Class Initialized
+DEBUG - 2017-02-17 15:03:40 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:03:40 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:03:40 --> URI Class Initialized
+INFO - 2017-02-17 15:03:40 --> URI Class Initialized
+DEBUG - 2017-02-17 15:03:40 --> No URI present. Default controller set.
+INFO - 2017-02-17 15:03:40 --> Router Class Initialized
+INFO - 2017-02-17 15:03:40 --> Router Class Initialized
+INFO - 2017-02-17 15:03:40 --> Output Class Initialized
+INFO - 2017-02-17 15:03:40 --> Output Class Initialized
+INFO - 2017-02-17 15:03:40 --> Security Class Initialized
+INFO - 2017-02-17 15:03:40 --> Security Class Initialized
+DEBUG - 2017-02-17 15:03:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2017-02-17 15:03:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:03:40 --> Input Class Initialized
+INFO - 2017-02-17 15:03:40 --> Input Class Initialized
+INFO - 2017-02-17 15:03:40 --> Language Class Initialized
+INFO - 2017-02-17 15:03:40 --> Language Class Initialized
+INFO - 2017-02-17 15:03:40 --> Language Class Initialized
+INFO - 2017-02-17 15:03:40 --> Language Class Initialized
+INFO - 2017-02-17 15:03:40 --> Config Class Initialized
+INFO - 2017-02-17 15:03:40 --> Config Class Initialized
+INFO - 2017-02-17 15:03:40 --> Loader Class Initialized
+INFO - 2017-02-17 15:03:40 --> Loader Class Initialized
+INFO - 2017-02-17 15:03:40 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:03:40 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:03:40 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:03:40 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:03:40 --> Model Class Initialized
+INFO - 2017-02-17 15:03:40 --> Model Class Initialized
+INFO - 2017-02-17 15:03:47 --> Config Class Initialized
+INFO - 2017-02-17 15:03:47 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:03:47 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:03:47 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:03:47 --> URI Class Initialized
+INFO - 2017-02-17 15:03:47 --> Router Class Initialized
+INFO - 2017-02-17 15:03:47 --> Output Class Initialized
+INFO - 2017-02-17 15:03:47 --> Security Class Initialized
+DEBUG - 2017-02-17 15:03:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:03:47 --> Input Class Initialized
+INFO - 2017-02-17 15:03:47 --> Language Class Initialized
+INFO - 2017-02-17 15:03:47 --> Language Class Initialized
+INFO - 2017-02-17 15:03:47 --> Config Class Initialized
+INFO - 2017-02-17 15:03:47 --> Loader Class Initialized
+INFO - 2017-02-17 15:03:47 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:03:47 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:03:47 --> Model Class Initialized
+INFO - 2017-02-17 15:03:53 --> Config Class Initialized
+INFO - 2017-02-17 15:03:53 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:03:53 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:03:53 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:03:53 --> URI Class Initialized
+INFO - 2017-02-17 15:03:53 --> Router Class Initialized
+INFO - 2017-02-17 15:03:53 --> Output Class Initialized
+INFO - 2017-02-17 15:03:53 --> Security Class Initialized
+DEBUG - 2017-02-17 15:03:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:03:53 --> Input Class Initialized
+INFO - 2017-02-17 15:03:53 --> Language Class Initialized
+INFO - 2017-02-17 15:03:53 --> Language Class Initialized
+INFO - 2017-02-17 15:03:53 --> Config Class Initialized
+INFO - 2017-02-17 15:03:53 --> Loader Class Initialized
+INFO - 2017-02-17 15:03:53 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:03:53 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:03:53 --> Model Class Initialized
+INFO - 2017-02-17 15:04:01 --> Config Class Initialized
+INFO - 2017-02-17 15:04:01 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:04:01 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:04:01 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:04:01 --> URI Class Initialized
+INFO - 2017-02-17 15:04:01 --> Router Class Initialized
+INFO - 2017-02-17 15:04:01 --> Output Class Initialized
+INFO - 2017-02-17 15:04:01 --> Security Class Initialized
+DEBUG - 2017-02-17 15:04:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:04:01 --> Input Class Initialized
+INFO - 2017-02-17 15:04:01 --> Language Class Initialized
+INFO - 2017-02-17 15:04:01 --> Language Class Initialized
+INFO - 2017-02-17 15:04:01 --> Config Class Initialized
+INFO - 2017-02-17 15:04:01 --> Loader Class Initialized
+INFO - 2017-02-17 15:04:01 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:04:01 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:04:01 --> Model Class Initialized
+INFO - 2017-02-17 15:04:34 --> Config Class Initialized
+INFO - 2017-02-17 15:04:34 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:04:34 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:04:34 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:04:34 --> URI Class Initialized
+INFO - 2017-02-17 15:04:34 --> Router Class Initialized
+INFO - 2017-02-17 15:04:34 --> Output Class Initialized
+INFO - 2017-02-17 15:04:34 --> Security Class Initialized
+DEBUG - 2017-02-17 15:04:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:04:34 --> Input Class Initialized
+INFO - 2017-02-17 15:04:34 --> Language Class Initialized
+INFO - 2017-02-17 15:04:34 --> Language Class Initialized
+INFO - 2017-02-17 15:04:34 --> Config Class Initialized
+INFO - 2017-02-17 15:04:34 --> Loader Class Initialized
+INFO - 2017-02-17 15:04:34 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:04:34 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:04:34 --> Model Class Initialized
+INFO - 2017-02-17 15:05:38 --> Config Class Initialized
+INFO - 2017-02-17 15:05:38 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:05:38 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:05:38 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:05:38 --> URI Class Initialized
+INFO - 2017-02-17 15:05:38 --> Router Class Initialized
+INFO - 2017-02-17 15:05:38 --> Output Class Initialized
+INFO - 2017-02-17 15:05:38 --> Security Class Initialized
+DEBUG - 2017-02-17 15:05:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:05:38 --> Input Class Initialized
+INFO - 2017-02-17 15:05:38 --> Language Class Initialized
+INFO - 2017-02-17 15:05:38 --> Language Class Initialized
+INFO - 2017-02-17 15:05:38 --> Config Class Initialized
+INFO - 2017-02-17 15:05:38 --> Loader Class Initialized
+INFO - 2017-02-17 15:05:38 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:05:38 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:05:38 --> Model Class Initialized
+INFO - 2017-02-17 15:05:59 --> Config Class Initialized
+INFO - 2017-02-17 15:05:59 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:05:59 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:05:59 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:05:59 --> URI Class Initialized
+INFO - 2017-02-17 15:05:59 --> Router Class Initialized
+INFO - 2017-02-17 15:05:59 --> Output Class Initialized
+INFO - 2017-02-17 15:05:59 --> Security Class Initialized
+DEBUG - 2017-02-17 15:05:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:05:59 --> Input Class Initialized
+INFO - 2017-02-17 15:05:59 --> Language Class Initialized
+INFO - 2017-02-17 15:05:59 --> Language Class Initialized
+INFO - 2017-02-17 15:05:59 --> Config Class Initialized
+INFO - 2017-02-17 15:05:59 --> Loader Class Initialized
+INFO - 2017-02-17 15:05:59 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:05:59 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:05:59 --> Model Class Initialized
+DEBUG - 2017-02-17 15:05:59 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:05:59 --> Model Class Initialized
+INFO - 2017-02-17 15:05:59 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:05:59 --> dashboard MX_Controller Initialized
+INFO - 2017-02-17 15:05:59 --> Final output sent to browser
+DEBUG - 2017-02-17 15:05:59 --> Total execution time: 0.1930
+INFO - 2017-02-17 15:06:05 --> Config Class Initialized
+INFO - 2017-02-17 15:06:05 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:06:05 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:06:05 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:06:05 --> URI Class Initialized
+DEBUG - 2017-02-17 15:06:05 --> No URI present. Default controller set.
+INFO - 2017-02-17 15:06:05 --> Router Class Initialized
+INFO - 2017-02-17 15:06:05 --> Output Class Initialized
+INFO - 2017-02-17 15:06:05 --> Security Class Initialized
+DEBUG - 2017-02-17 15:06:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:06:05 --> Input Class Initialized
+INFO - 2017-02-17 15:06:05 --> Language Class Initialized
+INFO - 2017-02-17 15:06:05 --> Language Class Initialized
+INFO - 2017-02-17 15:06:05 --> Config Class Initialized
+INFO - 2017-02-17 15:06:05 --> Loader Class Initialized
+INFO - 2017-02-17 15:06:05 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:06:05 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:06:05 --> Model Class Initialized
+DEBUG - 2017-02-17 15:06:05 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:06:05 --> Model Class Initialized
+INFO - 2017-02-17 15:06:05 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:06:05 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:06:05 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/dashboard_view.php
+INFO - 2017-02-17 15:06:05 --> Final output sent to browser
+DEBUG - 2017-02-17 15:06:05 --> Total execution time: 0.0640
+INFO - 2017-02-17 15:06:05 --> Config Class Initialized
+INFO - 2017-02-17 15:06:05 --> Hooks Class Initialized
+INFO - 2017-02-17 15:06:05 --> Config Class Initialized
+INFO - 2017-02-17 15:06:05 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:06:05 --> UTF-8 Support Enabled
+DEBUG - 2017-02-17 15:06:05 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:06:05 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:06:05 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:06:05 --> URI Class Initialized
+INFO - 2017-02-17 15:06:05 --> URI Class Initialized
+INFO - 2017-02-17 15:06:05 --> Router Class Initialized
+INFO - 2017-02-17 15:06:05 --> Router Class Initialized
+INFO - 2017-02-17 15:06:05 --> Output Class Initialized
+INFO - 2017-02-17 15:06:05 --> Security Class Initialized
+INFO - 2017-02-17 15:06:05 --> Output Class Initialized
+DEBUG - 2017-02-17 15:06:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:06:05 --> Input Class Initialized
+INFO - 2017-02-17 15:06:05 --> Security Class Initialized
+INFO - 2017-02-17 15:06:05 --> Language Class Initialized
+DEBUG - 2017-02-17 15:06:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:06:05 --> Input Class Initialized
+INFO - 2017-02-17 15:06:05 --> Language Class Initialized
+INFO - 2017-02-17 15:06:05 --> Config Class Initialized
+INFO - 2017-02-17 15:06:05 --> Language Class Initialized
+INFO - 2017-02-17 15:06:05 --> Loader Class Initialized
+INFO - 2017-02-17 15:06:05 --> Language Class Initialized
+INFO - 2017-02-17 15:06:05 --> Config Class Initialized
+INFO - 2017-02-17 15:06:05 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:06:05 --> Loader Class Initialized
+INFO - 2017-02-17 15:06:05 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:06:05 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:06:05 --> Model Class Initialized
+DEBUG - 2017-02-17 15:06:05 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:06:05 --> Model Class Initialized
+INFO - 2017-02-17 15:06:05 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:06:05 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:06:05 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_care.php
+INFO - 2017-02-17 15:06:05 --> Final output sent to browser
+DEBUG - 2017-02-17 15:06:05 --> Total execution time: 0.0658
+INFO - 2017-02-17 15:06:05 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:06:05 --> Model Class Initialized
+DEBUG - 2017-02-17 15:06:05 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:06:05 --> Model Class Initialized
+INFO - 2017-02-17 15:06:05 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:06:05 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:06:05 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_art.php
+INFO - 2017-02-17 15:06:05 --> Final output sent to browser
+DEBUG - 2017-02-17 15:06:05 --> Total execution time: 0.0866
+INFO - 2017-02-17 15:06:05 --> Config Class Initialized
+INFO - 2017-02-17 15:06:05 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:06:05 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:06:05 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:06:05 --> URI Class Initialized
+INFO - 2017-02-17 15:06:05 --> Router Class Initialized
+INFO - 2017-02-17 15:06:05 --> Output Class Initialized
+INFO - 2017-02-17 15:06:05 --> Security Class Initialized
+DEBUG - 2017-02-17 15:06:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:06:05 --> Input Class Initialized
+INFO - 2017-02-17 15:06:05 --> Language Class Initialized
+INFO - 2017-02-17 15:06:05 --> Language Class Initialized
+INFO - 2017-02-17 15:06:05 --> Config Class Initialized
+INFO - 2017-02-17 15:06:05 --> Loader Class Initialized
+INFO - 2017-02-17 15:06:05 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:06:05 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:06:05 --> Model Class Initialized
+DEBUG - 2017-02-17 15:06:05 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:06:05 --> Model Class Initialized
+INFO - 2017-02-17 15:06:05 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:06:05 --> dashboard MX_Controller Initialized
+INFO - 2017-02-17 15:06:05 --> Final output sent to browser
+DEBUG - 2017-02-17 15:06:05 --> Total execution time: 0.0813
+INFO - 2017-02-17 15:06:08 --> Config Class Initialized
+INFO - 2017-02-17 15:06:08 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:06:08 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:06:08 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:06:08 --> URI Class Initialized
+DEBUG - 2017-02-17 15:06:08 --> No URI present. Default controller set.
+INFO - 2017-02-17 15:06:08 --> Router Class Initialized
+INFO - 2017-02-17 15:06:08 --> Output Class Initialized
+INFO - 2017-02-17 15:06:08 --> Security Class Initialized
+DEBUG - 2017-02-17 15:06:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:06:08 --> Input Class Initialized
+INFO - 2017-02-17 15:06:08 --> Language Class Initialized
+INFO - 2017-02-17 15:06:08 --> Language Class Initialized
+INFO - 2017-02-17 15:06:08 --> Config Class Initialized
+INFO - 2017-02-17 15:06:08 --> Loader Class Initialized
+INFO - 2017-02-17 15:06:08 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:06:08 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:06:08 --> Model Class Initialized
+DEBUG - 2017-02-17 15:06:08 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:06:08 --> Model Class Initialized
+INFO - 2017-02-17 15:06:08 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:06:08 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:06:08 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/dashboard_view.php
+INFO - 2017-02-17 15:06:08 --> Final output sent to browser
+DEBUG - 2017-02-17 15:06:08 --> Total execution time: 0.0980
+INFO - 2017-02-17 15:06:08 --> Config Class Initialized
+INFO - 2017-02-17 15:06:08 --> Hooks Class Initialized
+INFO - 2017-02-17 15:06:08 --> Config Class Initialized
+INFO - 2017-02-17 15:06:08 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:06:08 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:06:08 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:06:08 --> URI Class Initialized
+DEBUG - 2017-02-17 15:06:08 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:06:08 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:06:08 --> URI Class Initialized
+INFO - 2017-02-17 15:06:08 --> Router Class Initialized
+INFO - 2017-02-17 15:06:08 --> Router Class Initialized
+INFO - 2017-02-17 15:06:08 --> Output Class Initialized
+INFO - 2017-02-17 15:06:08 --> Output Class Initialized
+INFO - 2017-02-17 15:06:08 --> Security Class Initialized
+INFO - 2017-02-17 15:06:08 --> Security Class Initialized
+DEBUG - 2017-02-17 15:06:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:06:08 --> Input Class Initialized
+DEBUG - 2017-02-17 15:06:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:06:08 --> Language Class Initialized
+INFO - 2017-02-17 15:06:08 --> Input Class Initialized
+INFO - 2017-02-17 15:06:08 --> Language Class Initialized
+INFO - 2017-02-17 15:06:08 --> Language Class Initialized
+INFO - 2017-02-17 15:06:08 --> Config Class Initialized
+INFO - 2017-02-17 15:06:08 --> Language Class Initialized
+INFO - 2017-02-17 15:06:08 --> Config Class Initialized
+INFO - 2017-02-17 15:06:08 --> Loader Class Initialized
+INFO - 2017-02-17 15:06:08 --> Loader Class Initialized
+INFO - 2017-02-17 15:06:08 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:06:08 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:06:08 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:06:08 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:06:08 --> Model Class Initialized
+INFO - 2017-02-17 15:06:08 --> Model Class Initialized
+DEBUG - 2017-02-17 15:06:08 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+DEBUG - 2017-02-17 15:06:08 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:06:08 --> Model Class Initialized
+INFO - 2017-02-17 15:06:08 --> Model Class Initialized
+INFO - 2017-02-17 15:06:08 --> Controller Class Initialized
+INFO - 2017-02-17 15:06:08 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:06:08 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:06:08 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:06:08 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_art.php
+DEBUG - 2017-02-17 15:06:08 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_care.php
+INFO - 2017-02-17 15:06:08 --> Final output sent to browser
+INFO - 2017-02-17 15:06:08 --> Final output sent to browser
+DEBUG - 2017-02-17 15:06:08 --> Total execution time: 0.1082
+DEBUG - 2017-02-17 15:06:08 --> Total execution time: 0.1128
+INFO - 2017-02-17 15:06:08 --> Config Class Initialized
+INFO - 2017-02-17 15:06:08 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:06:08 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:06:08 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:06:08 --> URI Class Initialized
+INFO - 2017-02-17 15:06:08 --> Router Class Initialized
+INFO - 2017-02-17 15:06:08 --> Output Class Initialized
+INFO - 2017-02-17 15:06:08 --> Security Class Initialized
+DEBUG - 2017-02-17 15:06:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:06:08 --> Input Class Initialized
+INFO - 2017-02-17 15:06:08 --> Language Class Initialized
+INFO - 2017-02-17 15:06:08 --> Language Class Initialized
+INFO - 2017-02-17 15:06:08 --> Config Class Initialized
+INFO - 2017-02-17 15:06:08 --> Loader Class Initialized
+INFO - 2017-02-17 15:06:08 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:06:08 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:06:08 --> Model Class Initialized
+DEBUG - 2017-02-17 15:06:08 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:06:08 --> Model Class Initialized
+INFO - 2017-02-17 15:06:08 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:06:08 --> dashboard MX_Controller Initialized
+INFO - 2017-02-17 15:06:09 --> Final output sent to browser
+DEBUG - 2017-02-17 15:06:09 --> Total execution time: 0.2091
+INFO - 2017-02-17 15:06:38 --> Config Class Initialized
+INFO - 2017-02-17 15:06:38 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:06:38 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:06:38 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:06:38 --> URI Class Initialized
+DEBUG - 2017-02-17 15:06:38 --> No URI present. Default controller set.
+INFO - 2017-02-17 15:06:38 --> Router Class Initialized
+INFO - 2017-02-17 15:06:38 --> Output Class Initialized
+INFO - 2017-02-17 15:06:38 --> Security Class Initialized
+DEBUG - 2017-02-17 15:06:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:06:38 --> Input Class Initialized
+INFO - 2017-02-17 15:06:38 --> Language Class Initialized
+INFO - 2017-02-17 15:06:38 --> Language Class Initialized
+INFO - 2017-02-17 15:06:38 --> Config Class Initialized
+INFO - 2017-02-17 15:06:38 --> Loader Class Initialized
+INFO - 2017-02-17 15:06:38 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:06:38 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:06:38 --> Model Class Initialized
+DEBUG - 2017-02-17 15:06:38 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:06:38 --> Model Class Initialized
+INFO - 2017-02-17 15:06:38 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:06:38 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:06:38 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/dashboard_view.php
+INFO - 2017-02-17 15:06:38 --> Final output sent to browser
+DEBUG - 2017-02-17 15:06:38 --> Total execution time: 0.0994
+INFO - 2017-02-17 15:06:39 --> Config Class Initialized
+INFO - 2017-02-17 15:06:39 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:06:39 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:06:39 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:06:39 --> Config Class Initialized
+INFO - 2017-02-17 15:06:39 --> Hooks Class Initialized
+INFO - 2017-02-17 15:06:39 --> URI Class Initialized
+DEBUG - 2017-02-17 15:06:39 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:06:39 --> Router Class Initialized
+INFO - 2017-02-17 15:06:39 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:06:39 --> URI Class Initialized
+INFO - 2017-02-17 15:06:39 --> Router Class Initialized
+INFO - 2017-02-17 15:06:39 --> Output Class Initialized
+INFO - 2017-02-17 15:06:39 --> Security Class Initialized
+INFO - 2017-02-17 15:06:39 --> Output Class Initialized
+INFO - 2017-02-17 15:06:39 --> Security Class Initialized
+DEBUG - 2017-02-17 15:06:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:06:39 --> Input Class Initialized
+DEBUG - 2017-02-17 15:06:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:06:39 --> Input Class Initialized
+INFO - 2017-02-17 15:06:39 --> Language Class Initialized
+INFO - 2017-02-17 15:06:39 --> Language Class Initialized
+INFO - 2017-02-17 15:06:39 --> Language Class Initialized
+INFO - 2017-02-17 15:06:39 --> Config Class Initialized
+INFO - 2017-02-17 15:06:39 --> Language Class Initialized
+INFO - 2017-02-17 15:06:39 --> Config Class Initialized
+INFO - 2017-02-17 15:06:39 --> Loader Class Initialized
+INFO - 2017-02-17 15:06:39 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:06:39 --> Loader Class Initialized
+INFO - 2017-02-17 15:06:39 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:06:39 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:06:39 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:06:39 --> Model Class Initialized
+DEBUG - 2017-02-17 15:06:39 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:06:39 --> Model Class Initialized
+INFO - 2017-02-17 15:06:39 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:06:39 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:06:39 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_art.php
+INFO - 2017-02-17 15:06:39 --> Final output sent to browser
+DEBUG - 2017-02-17 15:06:39 --> Total execution time: 0.0910
+INFO - 2017-02-17 15:06:39 --> Model Class Initialized
+DEBUG - 2017-02-17 15:06:39 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:06:39 --> Model Class Initialized
+INFO - 2017-02-17 15:06:39 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:06:39 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:06:39 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_care.php
+INFO - 2017-02-17 15:06:39 --> Final output sent to browser
+DEBUG - 2017-02-17 15:06:39 --> Total execution time: 0.0991
+INFO - 2017-02-17 15:06:39 --> Config Class Initialized
+INFO - 2017-02-17 15:06:39 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:06:39 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:06:39 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:06:40 --> URI Class Initialized
+INFO - 2017-02-17 15:06:40 --> Router Class Initialized
+INFO - 2017-02-17 15:06:40 --> Output Class Initialized
+INFO - 2017-02-17 15:06:40 --> Security Class Initialized
+DEBUG - 2017-02-17 15:06:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:06:40 --> Input Class Initialized
+INFO - 2017-02-17 15:06:40 --> Language Class Initialized
+INFO - 2017-02-17 15:06:40 --> Language Class Initialized
+INFO - 2017-02-17 15:06:40 --> Config Class Initialized
+INFO - 2017-02-17 15:06:40 --> Loader Class Initialized
+INFO - 2017-02-17 15:06:40 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:06:40 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:06:40 --> Model Class Initialized
+DEBUG - 2017-02-17 15:06:40 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:06:40 --> Model Class Initialized
+INFO - 2017-02-17 15:06:40 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:06:40 --> dashboard MX_Controller Initialized
+INFO - 2017-02-17 15:06:40 --> Final output sent to browser
+DEBUG - 2017-02-17 15:06:40 --> Total execution time: 0.1477
+INFO - 2017-02-17 15:06:43 --> Config Class Initialized
+INFO - 2017-02-17 15:06:43 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:06:43 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:06:43 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:06:43 --> URI Class Initialized
+INFO - 2017-02-17 15:06:43 --> Router Class Initialized
+INFO - 2017-02-17 15:06:43 --> Output Class Initialized
+INFO - 2017-02-17 15:06:43 --> Security Class Initialized
+DEBUG - 2017-02-17 15:06:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:06:43 --> Input Class Initialized
+INFO - 2017-02-17 15:06:43 --> Language Class Initialized
+INFO - 2017-02-17 15:06:43 --> Language Class Initialized
+INFO - 2017-02-17 15:06:43 --> Config Class Initialized
+INFO - 2017-02-17 15:06:43 --> Loader Class Initialized
+INFO - 2017-02-17 15:06:43 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:06:44 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:06:44 --> Model Class Initialized
+DEBUG - 2017-02-17 15:06:44 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:06:44 --> Model Class Initialized
+INFO - 2017-02-17 15:06:44 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:06:44 --> dashboard MX_Controller Initialized
+INFO - 2017-02-17 15:06:44 --> Final output sent to browser
+DEBUG - 2017-02-17 15:06:44 --> Total execution time: 0.1018
+INFO - 2017-02-17 15:08:15 --> Config Class Initialized
+INFO - 2017-02-17 15:08:15 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:08:15 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:08:15 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:08:15 --> URI Class Initialized
+DEBUG - 2017-02-17 15:08:15 --> No URI present. Default controller set.
+INFO - 2017-02-17 15:08:15 --> Router Class Initialized
+INFO - 2017-02-17 15:08:15 --> Output Class Initialized
+INFO - 2017-02-17 15:08:15 --> Security Class Initialized
+DEBUG - 2017-02-17 15:08:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:08:15 --> Input Class Initialized
+INFO - 2017-02-17 15:08:15 --> Language Class Initialized
+INFO - 2017-02-17 15:08:15 --> Language Class Initialized
+INFO - 2017-02-17 15:08:15 --> Config Class Initialized
+INFO - 2017-02-17 15:08:15 --> Loader Class Initialized
+INFO - 2017-02-17 15:08:15 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:08:15 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:08:15 --> Model Class Initialized
+DEBUG - 2017-02-17 15:08:15 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:08:15 --> Model Class Initialized
+INFO - 2017-02-17 15:08:15 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:08:15 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:08:15 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/dashboard_view.php
+INFO - 2017-02-17 15:08:15 --> Final output sent to browser
+DEBUG - 2017-02-17 15:08:15 --> Total execution time: 0.0790
+INFO - 2017-02-17 15:08:16 --> Config Class Initialized
+INFO - 2017-02-17 15:08:16 --> Hooks Class Initialized
+INFO - 2017-02-17 15:08:16 --> Config Class Initialized
+INFO - 2017-02-17 15:08:16 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:08:16 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:08:16 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:08:16 --> URI Class Initialized
+DEBUG - 2017-02-17 15:08:16 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:08:16 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:08:16 --> URI Class Initialized
+INFO - 2017-02-17 15:08:16 --> Router Class Initialized
+INFO - 2017-02-17 15:08:16 --> Router Class Initialized
+INFO - 2017-02-17 15:08:16 --> Output Class Initialized
+INFO - 2017-02-17 15:08:16 --> Security Class Initialized
+DEBUG - 2017-02-17 15:08:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:08:16 --> Input Class Initialized
+INFO - 2017-02-17 15:08:16 --> Output Class Initialized
+INFO - 2017-02-17 15:08:16 --> Language Class Initialized
+INFO - 2017-02-17 15:08:16 --> Security Class Initialized
+INFO - 2017-02-17 15:08:16 --> Language Class Initialized
+INFO - 2017-02-17 15:08:16 --> Config Class Initialized
+DEBUG - 2017-02-17 15:08:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:08:16 --> Input Class Initialized
+INFO - 2017-02-17 15:08:16 --> Language Class Initialized
+INFO - 2017-02-17 15:08:16 --> Loader Class Initialized
+INFO - 2017-02-17 15:08:16 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:08:16 --> Language Class Initialized
+INFO - 2017-02-17 15:08:16 --> Config Class Initialized
+INFO - 2017-02-17 15:08:16 --> Loader Class Initialized
+INFO - 2017-02-17 15:08:16 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:08:16 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:08:16 --> Model Class Initialized
+DEBUG - 2017-02-17 15:08:16 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:08:16 --> Model Class Initialized
+INFO - 2017-02-17 15:08:16 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:08:16 --> dashboard MX_Controller Initialized
+INFO - 2017-02-17 15:08:16 --> Database Driver Class Initialized
+DEBUG - 2017-02-17 15:08:16 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_care.php
+INFO - 2017-02-17 15:08:16 --> Final output sent to browser
+DEBUG - 2017-02-17 15:08:16 --> Total execution time: 0.0715
+INFO - 2017-02-17 15:08:16 --> Model Class Initialized
+DEBUG - 2017-02-17 15:08:16 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:08:16 --> Model Class Initialized
+INFO - 2017-02-17 15:08:16 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:08:16 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:08:16 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_art.php
+INFO - 2017-02-17 15:08:16 --> Final output sent to browser
+DEBUG - 2017-02-17 15:08:16 --> Total execution time: 0.0845
+INFO - 2017-02-17 15:08:16 --> Config Class Initialized
+INFO - 2017-02-17 15:08:16 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:08:16 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:08:16 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:08:16 --> URI Class Initialized
+INFO - 2017-02-17 15:08:16 --> Router Class Initialized
+INFO - 2017-02-17 15:08:16 --> Output Class Initialized
+INFO - 2017-02-17 15:08:16 --> Security Class Initialized
+DEBUG - 2017-02-17 15:08:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:08:16 --> Input Class Initialized
+INFO - 2017-02-17 15:08:16 --> Language Class Initialized
+INFO - 2017-02-17 15:08:16 --> Language Class Initialized
+INFO - 2017-02-17 15:08:16 --> Config Class Initialized
+INFO - 2017-02-17 15:08:16 --> Loader Class Initialized
+INFO - 2017-02-17 15:08:16 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:08:16 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:08:16 --> Model Class Initialized
+DEBUG - 2017-02-17 15:08:16 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:08:16 --> Model Class Initialized
+INFO - 2017-02-17 15:08:16 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:08:16 --> dashboard MX_Controller Initialized
+INFO - 2017-02-17 15:08:16 --> Final output sent to browser
+DEBUG - 2017-02-17 15:08:16 --> Total execution time: 0.1098
+INFO - 2017-02-17 15:09:13 --> Config Class Initialized
+INFO - 2017-02-17 15:09:13 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:09:13 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:09:13 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:09:13 --> URI Class Initialized
+DEBUG - 2017-02-17 15:09:13 --> No URI present. Default controller set.
+INFO - 2017-02-17 15:09:13 --> Router Class Initialized
+INFO - 2017-02-17 15:09:13 --> Output Class Initialized
+INFO - 2017-02-17 15:09:13 --> Security Class Initialized
+DEBUG - 2017-02-17 15:09:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:09:13 --> Input Class Initialized
+INFO - 2017-02-17 15:09:13 --> Language Class Initialized
+INFO - 2017-02-17 15:09:13 --> Language Class Initialized
+INFO - 2017-02-17 15:09:13 --> Config Class Initialized
+INFO - 2017-02-17 15:09:13 --> Loader Class Initialized
+INFO - 2017-02-17 15:09:13 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:09:13 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:09:13 --> Model Class Initialized
+DEBUG - 2017-02-17 15:09:13 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:09:13 --> Model Class Initialized
+INFO - 2017-02-17 15:09:13 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:09:13 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:09:13 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/dashboard_view.php
+INFO - 2017-02-17 15:09:13 --> Final output sent to browser
+DEBUG - 2017-02-17 15:09:13 --> Total execution time: 0.0598
+INFO - 2017-02-17 15:09:13 --> Config Class Initialized
+INFO - 2017-02-17 15:09:13 --> Hooks Class Initialized
+INFO - 2017-02-17 15:09:13 --> Config Class Initialized
+INFO - 2017-02-17 15:09:13 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:09:13 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:09:13 --> Utf8 Class Initialized
+DEBUG - 2017-02-17 15:09:13 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:09:13 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:09:13 --> URI Class Initialized
+INFO - 2017-02-17 15:09:13 --> URI Class Initialized
+INFO - 2017-02-17 15:09:13 --> Router Class Initialized
+INFO - 2017-02-17 15:09:13 --> Router Class Initialized
+INFO - 2017-02-17 15:09:13 --> Output Class Initialized
+INFO - 2017-02-17 15:09:13 --> Output Class Initialized
+INFO - 2017-02-17 15:09:13 --> Security Class Initialized
+INFO - 2017-02-17 15:09:13 --> Security Class Initialized
+DEBUG - 2017-02-17 15:09:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:09:13 --> Input Class Initialized
+DEBUG - 2017-02-17 15:09:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:09:13 --> Language Class Initialized
+INFO - 2017-02-17 15:09:13 --> Input Class Initialized
+INFO - 2017-02-17 15:09:13 --> Language Class Initialized
+INFO - 2017-02-17 15:09:13 --> Language Class Initialized
+INFO - 2017-02-17 15:09:13 --> Config Class Initialized
+INFO - 2017-02-17 15:09:13 --> Language Class Initialized
+INFO - 2017-02-17 15:09:13 --> Config Class Initialized
+INFO - 2017-02-17 15:09:13 --> Loader Class Initialized
+INFO - 2017-02-17 15:09:13 --> Loader Class Initialized
+INFO - 2017-02-17 15:09:13 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:09:13 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:09:13 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:09:13 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:09:13 --> Model Class Initialized
+DEBUG - 2017-02-17 15:09:13 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:09:13 --> Model Class Initialized
+INFO - 2017-02-17 15:09:13 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:09:13 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:09:13 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_care.php
+INFO - 2017-02-17 15:09:13 --> Final output sent to browser
+INFO - 2017-02-17 15:09:13 --> Model Class Initialized
+DEBUG - 2017-02-17 15:09:13 --> Total execution time: 0.0654
+DEBUG - 2017-02-17 15:09:13 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:09:13 --> Model Class Initialized
+INFO - 2017-02-17 15:09:13 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:09:13 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:09:13 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_art.php
+INFO - 2017-02-17 15:09:13 --> Final output sent to browser
+DEBUG - 2017-02-17 15:09:13 --> Total execution time: 0.0712
+INFO - 2017-02-17 15:09:14 --> Config Class Initialized
+INFO - 2017-02-17 15:09:14 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:09:14 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:09:14 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:09:14 --> URI Class Initialized
+INFO - 2017-02-17 15:09:14 --> Router Class Initialized
+INFO - 2017-02-17 15:09:14 --> Output Class Initialized
+INFO - 2017-02-17 15:09:14 --> Security Class Initialized
+DEBUG - 2017-02-17 15:09:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:09:14 --> Input Class Initialized
+INFO - 2017-02-17 15:09:14 --> Language Class Initialized
+INFO - 2017-02-17 15:09:14 --> Language Class Initialized
+INFO - 2017-02-17 15:09:14 --> Config Class Initialized
+INFO - 2017-02-17 15:09:14 --> Loader Class Initialized
+INFO - 2017-02-17 15:09:14 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:09:14 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:09:14 --> Model Class Initialized
+DEBUG - 2017-02-17 15:09:14 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:09:14 --> Model Class Initialized
+INFO - 2017-02-17 15:09:14 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:09:14 --> dashboard MX_Controller Initialized
+INFO - 2017-02-17 15:09:14 --> Final output sent to browser
+DEBUG - 2017-02-17 15:09:14 --> Total execution time: 0.0776
+INFO - 2017-02-17 15:09:24 --> Config Class Initialized
+INFO - 2017-02-17 15:09:24 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:09:24 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:09:24 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:09:24 --> URI Class Initialized
+DEBUG - 2017-02-17 15:09:24 --> No URI present. Default controller set.
+INFO - 2017-02-17 15:09:24 --> Router Class Initialized
+INFO - 2017-02-17 15:09:24 --> Output Class Initialized
+INFO - 2017-02-17 15:09:24 --> Security Class Initialized
+DEBUG - 2017-02-17 15:09:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:09:24 --> Input Class Initialized
+INFO - 2017-02-17 15:09:24 --> Language Class Initialized
+INFO - 2017-02-17 15:09:24 --> Language Class Initialized
+INFO - 2017-02-17 15:09:24 --> Config Class Initialized
+INFO - 2017-02-17 15:09:24 --> Loader Class Initialized
+INFO - 2017-02-17 15:09:24 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:09:24 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:09:24 --> Model Class Initialized
+DEBUG - 2017-02-17 15:09:24 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:09:24 --> Model Class Initialized
+INFO - 2017-02-17 15:09:24 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:09:24 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:09:24 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/dashboard_view.php
+INFO - 2017-02-17 15:09:24 --> Final output sent to browser
+DEBUG - 2017-02-17 15:09:24 --> Total execution time: 0.0964
+INFO - 2017-02-17 15:09:24 --> Config Class Initialized
+INFO - 2017-02-17 15:09:24 --> Hooks Class Initialized
+INFO - 2017-02-17 15:09:24 --> Config Class Initialized
+INFO - 2017-02-17 15:09:24 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:09:24 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:09:24 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:09:24 --> URI Class Initialized
+DEBUG - 2017-02-17 15:09:24 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:09:24 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:09:24 --> URI Class Initialized
+INFO - 2017-02-17 15:09:24 --> Router Class Initialized
+INFO - 2017-02-17 15:09:24 --> Output Class Initialized
+INFO - 2017-02-17 15:09:24 --> Router Class Initialized
+INFO - 2017-02-17 15:09:24 --> Security Class Initialized
+INFO - 2017-02-17 15:09:24 --> Output Class Initialized
+DEBUG - 2017-02-17 15:09:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:09:24 --> Input Class Initialized
+INFO - 2017-02-17 15:09:24 --> Security Class Initialized
+INFO - 2017-02-17 15:09:24 --> Language Class Initialized
+DEBUG - 2017-02-17 15:09:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:09:24 --> Input Class Initialized
+INFO - 2017-02-17 15:09:24 --> Language Class Initialized
+INFO - 2017-02-17 15:09:24 --> Language Class Initialized
+INFO - 2017-02-17 15:09:24 --> Config Class Initialized
+INFO - 2017-02-17 15:09:24 --> Language Class Initialized
+INFO - 2017-02-17 15:09:24 --> Config Class Initialized
+INFO - 2017-02-17 15:09:24 --> Loader Class Initialized
+INFO - 2017-02-17 15:09:24 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:09:24 --> Loader Class Initialized
+INFO - 2017-02-17 15:09:24 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:09:24 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:09:24 --> Model Class Initialized
+DEBUG - 2017-02-17 15:09:24 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:09:24 --> Model Class Initialized
+INFO - 2017-02-17 15:09:24 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:09:24 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:09:24 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_art.php
+INFO - 2017-02-17 15:09:24 --> Final output sent to browser
+DEBUG - 2017-02-17 15:09:24 --> Total execution time: 0.0670
+INFO - 2017-02-17 15:09:24 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:09:24 --> Model Class Initialized
+DEBUG - 2017-02-17 15:09:24 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:09:24 --> Model Class Initialized
+INFO - 2017-02-17 15:09:24 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:09:24 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:09:24 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_care.php
+INFO - 2017-02-17 15:09:24 --> Final output sent to browser
+DEBUG - 2017-02-17 15:09:24 --> Total execution time: 0.1101
+INFO - 2017-02-17 15:09:25 --> Config Class Initialized
+INFO - 2017-02-17 15:09:25 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:09:25 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:09:25 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:09:25 --> URI Class Initialized
+INFO - 2017-02-17 15:09:25 --> Router Class Initialized
+INFO - 2017-02-17 15:09:25 --> Output Class Initialized
+INFO - 2017-02-17 15:09:25 --> Security Class Initialized
+DEBUG - 2017-02-17 15:09:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:09:25 --> Input Class Initialized
+INFO - 2017-02-17 15:09:25 --> Language Class Initialized
+INFO - 2017-02-17 15:09:25 --> Language Class Initialized
+INFO - 2017-02-17 15:09:25 --> Config Class Initialized
+INFO - 2017-02-17 15:09:25 --> Loader Class Initialized
+INFO - 2017-02-17 15:09:25 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:09:25 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:09:25 --> Model Class Initialized
+DEBUG - 2017-02-17 15:09:25 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:09:25 --> Model Class Initialized
+INFO - 2017-02-17 15:09:25 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:09:25 --> dashboard MX_Controller Initialized
+INFO - 2017-02-17 15:09:25 --> Final output sent to browser
+DEBUG - 2017-02-17 15:09:25 --> Total execution time: 0.1116
+INFO - 2017-02-17 15:09:28 --> Config Class Initialized
+INFO - 2017-02-17 15:09:28 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:09:28 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:09:28 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:09:28 --> URI Class Initialized
+DEBUG - 2017-02-17 15:09:28 --> No URI present. Default controller set.
+INFO - 2017-02-17 15:09:28 --> Router Class Initialized
+INFO - 2017-02-17 15:09:28 --> Output Class Initialized
+INFO - 2017-02-17 15:09:28 --> Security Class Initialized
+DEBUG - 2017-02-17 15:09:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:09:28 --> Input Class Initialized
+INFO - 2017-02-17 15:09:28 --> Language Class Initialized
+INFO - 2017-02-17 15:09:28 --> Language Class Initialized
+INFO - 2017-02-17 15:09:28 --> Config Class Initialized
+INFO - 2017-02-17 15:09:28 --> Loader Class Initialized
+INFO - 2017-02-17 15:09:28 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:09:28 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:09:28 --> Model Class Initialized
+DEBUG - 2017-02-17 15:09:28 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:09:28 --> Model Class Initialized
+INFO - 2017-02-17 15:09:28 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:09:28 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:09:28 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/dashboard_view.php
+INFO - 2017-02-17 15:09:28 --> Final output sent to browser
+DEBUG - 2017-02-17 15:09:28 --> Total execution time: 0.0794
+INFO - 2017-02-17 15:09:28 --> Config Class Initialized
+INFO - 2017-02-17 15:09:28 --> Hooks Class Initialized
+INFO - 2017-02-17 15:09:28 --> Config Class Initialized
+INFO - 2017-02-17 15:09:28 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:09:28 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:09:28 --> Utf8 Class Initialized
+DEBUG - 2017-02-17 15:09:28 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:09:28 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:09:28 --> URI Class Initialized
+INFO - 2017-02-17 15:09:28 --> URI Class Initialized
+INFO - 2017-02-17 15:09:28 --> Router Class Initialized
+INFO - 2017-02-17 15:09:28 --> Router Class Initialized
+INFO - 2017-02-17 15:09:28 --> Output Class Initialized
+INFO - 2017-02-17 15:09:28 --> Output Class Initialized
+INFO - 2017-02-17 15:09:28 --> Security Class Initialized
+INFO - 2017-02-17 15:09:28 --> Security Class Initialized
+DEBUG - 2017-02-17 15:09:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:09:28 --> Input Class Initialized
+INFO - 2017-02-17 15:09:28 --> Language Class Initialized
+DEBUG - 2017-02-17 15:09:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:09:28 --> Input Class Initialized
+INFO - 2017-02-17 15:09:28 --> Language Class Initialized
+INFO - 2017-02-17 15:09:28 --> Language Class Initialized
+INFO - 2017-02-17 15:09:28 --> Config Class Initialized
+INFO - 2017-02-17 15:09:28 --> Loader Class Initialized
+INFO - 2017-02-17 15:09:28 --> Language Class Initialized
+INFO - 2017-02-17 15:09:28 --> Config Class Initialized
+INFO - 2017-02-17 15:09:28 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:09:28 --> Loader Class Initialized
+INFO - 2017-02-17 15:09:28 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:09:28 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:09:28 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:09:28 --> Model Class Initialized
+DEBUG - 2017-02-17 15:09:28 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:09:28 --> Model Class Initialized
+INFO - 2017-02-17 15:09:28 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:09:28 --> dashboard MX_Controller Initialized
+INFO - 2017-02-17 15:09:28 --> Model Class Initialized
+DEBUG - 2017-02-17 15:09:28 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_art.php
+DEBUG - 2017-02-17 15:09:28 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:09:28 --> Final output sent to browser
+INFO - 2017-02-17 15:09:28 --> Model Class Initialized
+DEBUG - 2017-02-17 15:09:28 --> Total execution time: 0.1130
+INFO - 2017-02-17 15:09:28 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:09:28 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:09:28 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_care.php
+INFO - 2017-02-17 15:09:28 --> Final output sent to browser
+DEBUG - 2017-02-17 15:09:28 --> Total execution time: 0.1151
+INFO - 2017-02-17 15:09:29 --> Config Class Initialized
+INFO - 2017-02-17 15:09:29 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:09:29 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:09:29 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:09:29 --> URI Class Initialized
+INFO - 2017-02-17 15:09:29 --> Router Class Initialized
+INFO - 2017-02-17 15:09:29 --> Output Class Initialized
+INFO - 2017-02-17 15:09:29 --> Security Class Initialized
+DEBUG - 2017-02-17 15:09:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:09:29 --> Input Class Initialized
+INFO - 2017-02-17 15:09:29 --> Language Class Initialized
+INFO - 2017-02-17 15:09:29 --> Language Class Initialized
+INFO - 2017-02-17 15:09:29 --> Config Class Initialized
+INFO - 2017-02-17 15:09:29 --> Loader Class Initialized
+INFO - 2017-02-17 15:09:29 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:09:29 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:09:29 --> Model Class Initialized
+DEBUG - 2017-02-17 15:09:29 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:09:29 --> Model Class Initialized
+INFO - 2017-02-17 15:09:29 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:09:29 --> dashboard MX_Controller Initialized
+INFO - 2017-02-17 15:09:29 --> Final output sent to browser
+DEBUG - 2017-02-17 15:09:29 --> Total execution time: 0.1747
+INFO - 2017-02-17 15:13:20 --> Config Class Initialized
+INFO - 2017-02-17 15:13:20 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:13:20 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:13:20 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:13:20 --> URI Class Initialized
+DEBUG - 2017-02-17 15:13:20 --> No URI present. Default controller set.
+INFO - 2017-02-17 15:13:20 --> Router Class Initialized
+INFO - 2017-02-17 15:13:20 --> Output Class Initialized
+INFO - 2017-02-17 15:13:20 --> Security Class Initialized
+DEBUG - 2017-02-17 15:13:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:13:20 --> Input Class Initialized
+INFO - 2017-02-17 15:13:20 --> Language Class Initialized
+INFO - 2017-02-17 15:13:20 --> Language Class Initialized
+INFO - 2017-02-17 15:13:20 --> Config Class Initialized
+INFO - 2017-02-17 15:13:20 --> Loader Class Initialized
+INFO - 2017-02-17 15:13:20 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:13:20 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:13:20 --> Model Class Initialized
+DEBUG - 2017-02-17 15:13:20 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:13:20 --> Model Class Initialized
+INFO - 2017-02-17 15:13:20 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:13:20 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:13:20 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/dashboard_view.php
+INFO - 2017-02-17 15:13:20 --> Final output sent to browser
+DEBUG - 2017-02-17 15:13:20 --> Total execution time: 0.0570
+INFO - 2017-02-17 15:13:21 --> Config Class Initialized
+INFO - 2017-02-17 15:13:21 --> Hooks Class Initialized
+INFO - 2017-02-17 15:13:21 --> Config Class Initialized
+INFO - 2017-02-17 15:13:21 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:13:21 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:13:21 --> Utf8 Class Initialized
+DEBUG - 2017-02-17 15:13:21 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:13:21 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:13:21 --> URI Class Initialized
+INFO - 2017-02-17 15:13:21 --> URI Class Initialized
+INFO - 2017-02-17 15:13:21 --> Router Class Initialized
+INFO - 2017-02-17 15:13:21 --> Router Class Initialized
+INFO - 2017-02-17 15:13:21 --> Output Class Initialized
+INFO - 2017-02-17 15:13:21 --> Output Class Initialized
+INFO - 2017-02-17 15:13:21 --> Security Class Initialized
+INFO - 2017-02-17 15:13:21 --> Security Class Initialized
+DEBUG - 2017-02-17 15:13:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:13:21 --> Input Class Initialized
+DEBUG - 2017-02-17 15:13:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:13:21 --> Language Class Initialized
+INFO - 2017-02-17 15:13:21 --> Input Class Initialized
+INFO - 2017-02-17 15:13:21 --> Language Class Initialized
+INFO - 2017-02-17 15:13:21 --> Language Class Initialized
+INFO - 2017-02-17 15:13:21 --> Config Class Initialized
+INFO - 2017-02-17 15:13:21 --> Language Class Initialized
+INFO - 2017-02-17 15:13:21 --> Config Class Initialized
+INFO - 2017-02-17 15:13:21 --> Loader Class Initialized
+INFO - 2017-02-17 15:13:21 --> Loader Class Initialized
+INFO - 2017-02-17 15:13:21 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:13:21 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:13:21 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:13:21 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:13:21 --> Model Class Initialized
+DEBUG - 2017-02-17 15:13:21 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:13:21 --> Model Class Initialized
+INFO - 2017-02-17 15:13:21 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:13:21 --> dashboard MX_Controller Initialized
+INFO - 2017-02-17 15:13:21 --> Model Class Initialized
+DEBUG - 2017-02-17 15:13:21 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_art.php
+DEBUG - 2017-02-17 15:13:21 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:13:21 --> Final output sent to browser
+INFO - 2017-02-17 15:13:21 --> Model Class Initialized
+DEBUG - 2017-02-17 15:13:21 --> Total execution time: 0.0689
+INFO - 2017-02-17 15:13:21 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:13:21 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:13:21 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_care.php
+INFO - 2017-02-17 15:13:21 --> Final output sent to browser
+DEBUG - 2017-02-17 15:13:21 --> Total execution time: 0.0708
+INFO - 2017-02-17 15:13:21 --> Config Class Initialized
+INFO - 2017-02-17 15:13:21 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:13:21 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:13:21 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:13:21 --> URI Class Initialized
+INFO - 2017-02-17 15:13:21 --> Router Class Initialized
+INFO - 2017-02-17 15:13:21 --> Output Class Initialized
+INFO - 2017-02-17 15:13:21 --> Security Class Initialized
+DEBUG - 2017-02-17 15:13:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:13:21 --> Input Class Initialized
+INFO - 2017-02-17 15:13:21 --> Language Class Initialized
+INFO - 2017-02-17 15:13:21 --> Language Class Initialized
+INFO - 2017-02-17 15:13:21 --> Config Class Initialized
+INFO - 2017-02-17 15:13:21 --> Loader Class Initialized
+INFO - 2017-02-17 15:13:21 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:13:21 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:13:21 --> Model Class Initialized
+DEBUG - 2017-02-17 15:13:21 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:13:21 --> Model Class Initialized
+INFO - 2017-02-17 15:13:21 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:13:21 --> dashboard MX_Controller Initialized
+INFO - 2017-02-17 15:13:21 --> Final output sent to browser
+DEBUG - 2017-02-17 15:13:21 --> Total execution time: 0.0750
+INFO - 2017-02-17 15:19:08 --> Config Class Initialized
+INFO - 2017-02-17 15:19:08 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:19:08 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:19:08 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:19:08 --> URI Class Initialized
+DEBUG - 2017-02-17 15:19:08 --> No URI present. Default controller set.
+INFO - 2017-02-17 15:19:08 --> Router Class Initialized
+INFO - 2017-02-17 15:19:08 --> Output Class Initialized
+INFO - 2017-02-17 15:19:08 --> Security Class Initialized
+DEBUG - 2017-02-17 15:19:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:19:08 --> Input Class Initialized
+INFO - 2017-02-17 15:19:08 --> Language Class Initialized
+INFO - 2017-02-17 15:19:08 --> Language Class Initialized
+INFO - 2017-02-17 15:19:08 --> Config Class Initialized
+INFO - 2017-02-17 15:19:08 --> Loader Class Initialized
+INFO - 2017-02-17 15:19:08 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:19:08 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:19:08 --> Model Class Initialized
+DEBUG - 2017-02-17 15:19:08 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:19:08 --> Model Class Initialized
+INFO - 2017-02-17 15:19:08 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:19:08 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:19:08 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/dashboard_view.php
+INFO - 2017-02-17 15:19:08 --> Final output sent to browser
+DEBUG - 2017-02-17 15:19:08 --> Total execution time: 0.0502
+INFO - 2017-02-17 15:19:08 --> Config Class Initialized
+INFO - 2017-02-17 15:19:08 --> Hooks Class Initialized
+INFO - 2017-02-17 15:19:08 --> Config Class Initialized
+INFO - 2017-02-17 15:19:08 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:19:08 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:19:08 --> Utf8 Class Initialized
+DEBUG - 2017-02-17 15:19:08 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:19:08 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:19:08 --> URI Class Initialized
+INFO - 2017-02-17 15:19:08 --> URI Class Initialized
+INFO - 2017-02-17 15:19:08 --> Router Class Initialized
+INFO - 2017-02-17 15:19:08 --> Router Class Initialized
+INFO - 2017-02-17 15:19:08 --> Output Class Initialized
+INFO - 2017-02-17 15:19:08 --> Output Class Initialized
+INFO - 2017-02-17 15:19:08 --> Security Class Initialized
+DEBUG - 2017-02-17 15:19:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:19:08 --> Security Class Initialized
+INFO - 2017-02-17 15:19:08 --> Input Class Initialized
+INFO - 2017-02-17 15:19:08 --> Language Class Initialized
+DEBUG - 2017-02-17 15:19:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:19:08 --> Input Class Initialized
+INFO - 2017-02-17 15:19:08 --> Language Class Initialized
+INFO - 2017-02-17 15:19:08 --> Language Class Initialized
+INFO - 2017-02-17 15:19:08 --> Config Class Initialized
+INFO - 2017-02-17 15:19:08 --> Language Class Initialized
+INFO - 2017-02-17 15:19:08 --> Config Class Initialized
+INFO - 2017-02-17 15:19:08 --> Loader Class Initialized
+INFO - 2017-02-17 15:19:08 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:19:08 --> Loader Class Initialized
+INFO - 2017-02-17 15:19:08 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:19:08 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:19:08 --> Model Class Initialized
+DEBUG - 2017-02-17 15:19:08 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:19:08 --> Model Class Initialized
+INFO - 2017-02-17 15:19:08 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:19:08 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:19:08 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_art.php
+INFO - 2017-02-17 15:19:08 --> Final output sent to browser
+INFO - 2017-02-17 15:19:08 --> Database Driver Class Initialized
+DEBUG - 2017-02-17 15:19:08 --> Total execution time: 0.0707
+INFO - 2017-02-17 15:19:08 --> Model Class Initialized
+DEBUG - 2017-02-17 15:19:08 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:19:08 --> Model Class Initialized
+INFO - 2017-02-17 15:19:08 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:19:08 --> dashboard MX_Controller Initialized
+DEBUG - 2017-02-17 15:19:08 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/views/enrolled_in_care.php
+INFO - 2017-02-17 15:19:08 --> Final output sent to browser
+DEBUG - 2017-02-17 15:19:08 --> Total execution time: 0.0820
+INFO - 2017-02-17 15:19:08 --> Config Class Initialized
+INFO - 2017-02-17 15:19:08 --> Hooks Class Initialized
+DEBUG - 2017-02-17 15:19:08 --> UTF-8 Support Enabled
+INFO - 2017-02-17 15:19:08 --> Utf8 Class Initialized
+INFO - 2017-02-17 15:19:08 --> URI Class Initialized
+INFO - 2017-02-17 15:19:08 --> Router Class Initialized
+INFO - 2017-02-17 15:19:08 --> Output Class Initialized
+INFO - 2017-02-17 15:19:08 --> Security Class Initialized
+DEBUG - 2017-02-17 15:19:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-02-17 15:19:08 --> Input Class Initialized
+INFO - 2017-02-17 15:19:08 --> Language Class Initialized
+INFO - 2017-02-17 15:19:08 --> Language Class Initialized
+INFO - 2017-02-17 15:19:08 --> Config Class Initialized
+INFO - 2017-02-17 15:19:08 --> Loader Class Initialized
+INFO - 2017-02-17 15:19:08 --> Helper loaded: url_helper
+INFO - 2017-02-17 15:19:08 --> Database Driver Class Initialized
+INFO - 2017-02-17 15:19:08 --> Model Class Initialized
+DEBUG - 2017-02-17 15:19:08 --> File loaded: D:\xampp\htdocs\adt_dashboard\application\modules/patient/models/Enrolled_care_model.php
+INFO - 2017-02-17 15:19:08 --> Model Class Initialized
+INFO - 2017-02-17 15:19:08 --> Controller Class Initialized
+DEBUG - 2017-02-17 15:19:08 --> dashboard MX_Controller Initialized
+INFO - 2017-02-17 15:19:08 --> Final output sent to browser
+DEBUG - 2017-02-17 15:19:08 --> Total execution time: 0.0807
