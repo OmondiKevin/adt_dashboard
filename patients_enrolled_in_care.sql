@@ -12,7 +12,11 @@ VIEW `patients_enrolled_in_care` AS
         `tv`.`visit_date` AS `enrollment_date`,
         `tf`.`name` AS `facility`,
         `tcs`.`name` AS `subcounty`,
-        `tc`.`name` AS `county`
+        `tc`.`name` AS `county`,
+        (YEAR(CURDATE()) - YEAR(`tp`.`birth_date`)) AS `age`,
+        IF(((YEAR(CURDATE()) - YEAR(`tp`.`birth_date`)) < 15),
+            'child',
+            'adult') AS `age_category`
     FROM
         ((((((`tbl_patient` `tp`
         LEFT JOIN `tbl_service` `ts` ON ((`tp`.`service_id` = `ts`.`id`)))

@@ -34,4 +34,5 @@ RCSLOG
 SCCS
 _$*
 /nbproject/private/
-application/logs/log-2015-03-30.php
+application/logs/
+application/config/database.php
