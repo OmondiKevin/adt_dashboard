@@ -18,10 +18,10 @@ VIEW `patients_enrolled_in_care` AS
             'child',
             'adult') AS `age_category`
     FROM
-        ((((((`tbl_patient` `tp`
-        LEFT JOIN `tbl_service` `ts` ON ((`tp`.`service_id` = `ts`.`id`)))
-        LEFT JOIN `tbl_visit` `tv` ON ((`tv`.`patient_id` = `tp`.`id`)))
-        LEFT JOIN `tbl_source` `tso` ON ((`tp`.`source_id` = `tso`.`id`)))
-        LEFT JOIN `tbl_facility` `tf` ON ((`tf`.`id` = `tp`.`facility_id`)))
-        LEFT JOIN `tbl_county_sub` `tcs` ON ((`tcs`.`id` = `tf`.`county_sub_id`)))
-        LEFT JOIN `tbl_county` `tc` ON ((`tc`.`id` = `tcs`.`county_id`)))
+        ((((((`adt`.`tbl_patient` `tp`
+        LEFT JOIN `adt`.`tbl_service` `ts` ON ((`tp`.`service_id` = `ts`.`id`)))
+        LEFT JOIN `adt`.`tbl_visit` `tv` ON ((`tv`.`patient_id` = `tp`.`id`)))
+        LEFT JOIN `adt`.`tbl_source` `tso` ON ((`tp`.`source_id` = `tso`.`id`)))
+        LEFT JOIN `adt`.`tbl_facility` `tf` ON ((`tf`.`id` = `tp`.`facility_id`)))
+        LEFT JOIN `adt`.`tbl_county_sub` `tcs` ON ((`tcs`.`id` = `tf`.`county_sub_id`)))
+        LEFT JOIN `adt`.`tbl_county` `tc` ON ((`tc`.`id` = `tcs`.`county_id`)))
