@@ -7,8 +7,7 @@ class dashboard extends MX_Controller {
 	{
 		$data['page_title'] = "ADT Dashboard";
 		$this->load->view('dashboard_view', $data);
-		
-
+	
 	}
 
 	function enrolled_in_art()
@@ -27,5 +26,7 @@ class dashboard extends MX_Controller {
 		$json_data['drilldown'] = $this->enrolled_care_model->get_source_drilldown_gender();
 		$this->output->set_content_type('application/json')->set_output(json_encode($json_data, JSON_NUMERIC_CHECK));
 	}
-
+	function getOptions(){
+		
+	}
 }
