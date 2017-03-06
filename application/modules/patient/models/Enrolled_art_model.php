@@ -83,7 +83,7 @@ class Enrolled_art_model extends CI_Model {
 					LOWER(REPLACE(regimen_name, ' ', '_')) regimen_name,
 					COUNT(*) as total
 				FROM vw_patients_data
-				WHERE LOWER(REPLACE(regimen_name, ' ', '_')) = ?
+				WHERE LOWER(REPLACE(service, ' ', '_')) = ?
 				AND gender = ?
 				AND age_category = ?";
 
