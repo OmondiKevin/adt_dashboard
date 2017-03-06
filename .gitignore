@@ -33,6 +33,6 @@ RCS
 RCSLOG
 SCCS
 _$*
-/nbproject/private/
-application/logs/
+/nbproject/private/*
+application/logs/*
 application/config/database.php
