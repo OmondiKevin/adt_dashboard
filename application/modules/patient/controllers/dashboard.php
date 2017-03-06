@@ -27,6 +27,5 @@ class dashboard extends MX_Controller {
 		$this->output->set_content_type('application/json')->set_output(json_encode($json_data, JSON_NUMERIC_CHECK));
 	}
 	function getOptions(){
-		
 	}
 }
