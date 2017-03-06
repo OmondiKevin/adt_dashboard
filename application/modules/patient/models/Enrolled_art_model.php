@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Enrolled_care_model extends CI_Model {
+class Enrolled_art_model extends CI_Model {
 	var $drilldown_data = array();
 	public function get_source_total(){
 		$sql = "SELECT LOWER(REPLACE(source, ' ', '_')) name, COUNT(*) y, LOWER(REPLACE(source, ' ', '_')) drilldown
