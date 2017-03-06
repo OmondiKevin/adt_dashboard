@@ -1,11 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-// public $sub_county  = $this->input->post('sub_county');
-// public $county  	= $this->input->post('county');
-// public $start_date  = $this->input->post('start_date');
-// public $end_date  	= $this->input->post('end_date');
-
 class Enrolled_care_model extends CI_Model {
 	var $drilldown_data = array();
 	public function get_source_total(){
