@@ -18,7 +18,9 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'public/lib/dataTables/css/jquery.dataTables.min.css';?>" />
 	<!-- custom css -->
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'public/css/custom.css';?>" />
-
+	<!-- Bootstrap DatePicker css and Js -->
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'public/lib/bootstrap-datepicker/css/bootstrap-datepicker.css';?>";">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'public/lib/bootstrap-datepicker/css/bootstrap-datepicker3.css';?>";">
 
 </head>
 	<body class="application">
@@ -41,6 +43,21 @@
 			          </li>
 			          <li><a href="#">COMMODITIES</a></li>
 			        </ul>
+
+			        <nav class="collapse navbar-collapse" id="filter-navbar"> 
+						<!--filter_frm-->
+						<div class="nav navbar-nav navbar-form navbar-right">
+							<!--clear_filter_btn-->
+							<button type="button" class="btn btn-danger btn-md" id="clear_filter_btn">
+								<span class="glyphicon glyphicon-refresh"></span> Reset</button>
+							</button>
+						  	<!--filter_modal-->
+							<button type="button" class="btn btn-success btn-md" data-toggle="modal" data-target="#filterModal">
+								<span class="glyphicon glyphicon-filter"></span> Filter</button>
+							</button>
+						</div>
+			            
+					</nav>
 			      </div>
 			    </div>
   		</div>
@@ -187,7 +204,7 @@
 	<p class="small text-muted">Built by <a href="http://www.clintonhealthaccess.org" target="_blank">CHAI</a></p>
 	<!-- filter_modal -->
 	<div class="modal fade" id="filterModal" tabindex="-1" role="dialog" aria-labelledby="filterModalLabel">
-	  	<div class="modal-dialog modal-lg" role="document">
+	  	<div class="modal-dialog" role="document">
 	    	<div class="modal-content">
 				<div class="modal-header alert-success">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -197,28 +214,39 @@
 					<div id="filter_frm" class="form-horizontal">
 						<div class="auto_filter"></div><!--auto_filter-->
 						<div class="form-group">
-							<label for="metric" class="col-sm-2 control-label">METRIC</label>
-							<div class="col-sm-10">
+							<label for="metric" class="col-sm-4 control-label">SUB COUNTY</label>
+							<div class="col-sm-8">
 								<select class="form-control metric" id="metric">
-		                            <option value="quantity" selected="selected">Quantity</option>
+		                            <option value="subcounty" selected="selected">Sub County</option>
 		                        </select>
 							</div>
 						</div>
 						<!--common_filters-->
 						<div class="form-group">
-							<label for="order" class="col-sm-2 control-label">ORDER</label>
-							<div class="col-sm-10">
+							<label for="order" class="col-sm-4 control-label">COUNTY</label>
+							<div class="col-sm-8">
 								<select class="order form-control" id="order">
-									<option value="desc" selected="selected">Top</option>
+									<option value="counry" selected="selected">County</option>
+								</select>
+							</div>
+						</div>
+						<!-- Facility Name -->
+						<div class="form-group">
+							<label for="order" class="col-sm-4 control-label">FACILITY</label>
+							<div class="col-sm-8">
+								<select class="order form-control" id="order">
+									<option value="counry" selected="selected">Facility</option>
 								</select>
 							</div>
 						</div>
 						<div class="form-group">
-							<label for="limit" class="col-sm-2 control-label">LIMIT</label>
-							<div class="col-sm-10">
-								<select class="limit form-control" id="limit">
-									<option value="5" selected="selected">5</option>
-								</select>
+							<label for="limit" class="col-sm-4 control-label">ENROLLMENT DATE</label>
+							<div class="col-sm-8">
+								<div class="input-daterange input-group" id="datepicker">
+								    <input type="text" class="input-sm form-control" name="start" />
+								    <span class="input-group-addon">to</span>
+								    <input type="text" class="input-sm form-control" name="end" />
+								</div>
 							</div>
 						</div>
 					</div>
@@ -230,6 +258,7 @@
 	    	</div>
 		</div>
 	</div>
+
 	<!--jquery-->
 	<script type="text/javascript" src="<?php echo base_url().'public/lib/jquery/dist/jquery.min.js';?>"></script>
 	<!--highcharts-->
@@ -250,6 +279,7 @@
 	<script type="text/javascript" src="<?php echo base_url().'public/js/disable_back_button.js';?>"></script>
 	<!--dashboard-->
 	<script type="text/javascript" src="<?php echo base_url().'public/js/dashboard.js';?>"></script>
+	
 
 </body>
 </html>

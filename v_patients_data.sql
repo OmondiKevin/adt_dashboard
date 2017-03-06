@@ -2,7 +2,7 @@ CREATE
     ALGORITHM = UNDEFINED 
     DEFINER = `root`@`localhost` 
     SQL SECURITY DEFINER
-VIEW `patients_enrolled_in_care` AS
+VIEW `adt_dashboard`.`v_patients_data` AS
     SELECT 
         `tp`.`id` AS `patient_id`,
         `tso`.`name` AS `source`,

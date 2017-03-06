@@ -1,16 +1,11 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-// public $sub_county  = $this->input->post('sub_county');
-// public $county  	= $this->input->post('county');
-// public $start_date  = $this->input->post('start_date');
-// public $end_date  	= $this->input->post('end_date');
-
-class Enrolled_care_model extends CI_Model {
+class Options_model extends CI_Model {
 	var $drilldown_data = array();
 	public function get_source_total(){
 		$sql = "SELECT LOWER(REPLACE(source, ' ', '_')) name, COUNT(*) y, LOWER(REPLACE(source, ' ', '_')) drilldown
-				FROM vw_patients_data
+				FROM patients_enrolled_in_care
 				GROUP BY name";
 		$query = $this->db->query($sql);
 		return $query->result_array();
@@ -24,7 +19,7 @@ class Enrolled_care_model extends CI_Model {
 					LOWER(REPLACE(source, ' ', '_')) source,
 					COUNT(IF(gender = 'male', 1, NULL)) as male,
 					COUNT(IF(gender = 'female', 1, NULL)) as female
-				FROM vw_patients_data
+				FROM patients_enrolled_in_care
 				GROUP BY source";
 		$totals = $this->db->query($sql)->result_array();
 		//Loop through sources
@@ -55,7 +50,7 @@ class Enrolled_care_model extends CI_Model {
 		$sql = "SELECT
 					COUNT(IF(age_category = 'adult', 1, NULL)) as adult,
 					COUNT(IF(age_category = 'child', 1, NULL)) as child
-				FROM vw_patients_data
+				FROM patients_enrolled_in_care
 				WHERE LOWER(REPLACE(source, ' ', '_')) = ?
 				AND gender = ?";
 		$totals = $this->db->query($sql, array($source, $gender))->result_array();
@@ -82,7 +77,7 @@ class Enrolled_care_model extends CI_Model {
 		$sql = "SELECT
 					LOWER(REPLACE(service, ' ', '_')) service,
 					COUNT(*) as total
-				FROM vw_patients_data
+				FROM patients_enrolled_in_care
 				WHERE LOWER(REPLACE(source, ' ', '_')) = ?
 				AND gender = ?
 				AND age_category = ?";
