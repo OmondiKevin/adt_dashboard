@@ -36,3 +36,4 @@ _$*
 /nbproject/private/
 application/logs/
 application/config/database.php
+dvb/config.php
