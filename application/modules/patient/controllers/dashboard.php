@@ -7,8 +7,11 @@ class Dashboard extends MX_Controller {
 	{
 		$data['page_title'] = "ADT Dashboard";
 		$this->load->view('dashboard_view', $data);
-		$this->load->view('enrolled_in_care'); // load the chart of patients enrolled in care
-		$this->load->view('enrolled_in_art'); // load the chart of the patients enrolled in art
+	}
+
+	function load_views($name){
+		$this->load->view($name); // load the charts views from the js
+
 	}
 
 	function getData(){
