@@ -1,7 +1,7 @@
 <script type="text/javascript">
 
 $(document).ready(function(){
-    $.get('<?= @base_url('patient/dashboard/getData'); ?>', function(data){
+    $.get('<?= @base_url('patient/dashboard/getART'); ?>', function(data){
         Highcharts.chart('enrolled_in_art', {
             chart: {
                 type: 'column',
@@ -28,6 +28,7 @@ $(document).ready(function(){
             title: {
                 text: 'PATIENTS ENROLLED IN ART'
             },
+            credits: false,
             xAxis: {
                 type: 'category'
             },
@@ -50,7 +51,7 @@ $(document).ready(function(){
             },
 
             series: [{
-                name: 'Sources',
+                name: 'Regimen',
                 colorByPoint: true,
                 data: data.main
             }],

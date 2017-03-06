@@ -28,6 +28,7 @@ $(document).ready(function(){
 		    title: {
 		        text: 'PATIENTS ENROLLED IN CARE'
 		    },
+		    credits: false,
 		    xAxis: {
 		        type: 'category'
 		    },
