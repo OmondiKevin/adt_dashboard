@@ -7,10 +7,14 @@ class Dashboard extends MX_Controller {
 	{
 		$data['page_title'] = "ADT Dashboard";
 		$this->load->view('dashboard_view', $data);
+
 	}
 
 	function load_views($name){
-		$this->load->view($name); // load the charts views from the js
+		$data['chart_text'] = $this->config->item($name.'_text');
+		$data['chart_name'] = $name;
+		$data['chart_type'] = $this->config->item($name.'_chart_type');
+		$this->load->view('charts_view',$data); // load the charts views from the js
 
 	}
 

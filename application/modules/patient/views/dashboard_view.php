@@ -115,6 +115,31 @@
 					</div>
 				</div>
 				<!-- end toprow -->
+				<!-- Start second row -->
+					<!--patients_enrolled_in_care-->
+					<div class="col-sm-6">
+						<div class="chart-wrapper">
+							<div class="chart-title">
+								PATIENTS ACTIVE BY REGIMEN
+							</div>
+							<div class="chart-stage">
+								<div class="tab-content">
+									<div role="tabpanel" class="tab-pane active" id="summary_atc_code">
+										<div class="container-fluid">
+											<div class="row">
+												<div id="patients_active_by_regimen"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="chart-notes">
+								<span class="heading"></span> PATIENTS ACTIVE BY REGIMEN
+							</div>
+						</div>
+					</div>
+
+				<!-- end of second row -->
 			</div>
 		</div>
 		<div role="tabpanel" class="tab-pane" id="premises">
@@ -277,7 +302,7 @@
 	<script type="text/javascript" src="<?php echo base_url().'public/lib/dataTables/js/jquery.dataTables.min.js';?>"></script>
 	<!--disable_back_button-->
 	<script type="text/javascript" src="<?php echo base_url().'public/js/disable_back_button.js';?>"></script>
-	<!--dashboard-->
+	<!--dashboard Charts-->
 	<script type="text/javascript" src="<?php echo base_url().'public/js/dashboard.js';?>"></script>
 	
 
