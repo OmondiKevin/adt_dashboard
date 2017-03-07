@@ -1,7 +1,7 @@
 <script type="text/javascript">
 
 $(document).ready(function(){
-    $.get('<?= @base_url('patient/dashboard/getART'); ?>', function(data){
+    $.get('<?= @base_url('patient/dashboard/get_chart/enrolled_in_art'); ?>', function(data){
         Highcharts.chart('enrolled_in_art', {
             chart: {
                 type: 'column',

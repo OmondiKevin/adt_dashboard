@@ -2,22 +2,104 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Dashboard_model extends CI_Model {
-	public function get_view_data($view_name, $chart_name, $metric, $filter_array, $order, $limit)
-	{	
-		//Build custom view query
-		$this->db->select("$chart_name,SUM($metric) $metric", FALSE);
-		if(!empty($filter_array)){
-			foreach ($filter_array as $category => $filter_data) {
-				$this->db->where_in($category, $filter_data);
+	var $drilldown_data = array();
+
+	public function get_initial_total($first_column_name){
+		$sql = "SELECT 
+				    LOWER(REPLACE($first_column_name, ' ', '_')) name,
+				    COUNT(*) y,
+				    LOWER(REPLACE($first_column_name, ' ', '_')) drilldown
+				FROM
+				    vw_patients_data
+				GROUP BY $first_column_name";
+		$query = $this->db->query($sql);
+		return $query->result_array();
+	}
+
+	public function get_drilldown_gender($first_column_name, $last_column_name){
+		$count = 0;
+		$formatted_data = array();
+		$tmp_data = array();
+		$sql = "SELECT
+					LOWER(REPLACE($first_column_name, ' ', '_')) name,
+					COUNT(IF(gender = 'male', 1, NULL)) as male,
+					COUNT(IF(gender = 'female', 1, NULL)) as female
+				FROM vw_patients_data
+				GROUP BY $first_column_name";
+		$totals = $this->db->query($sql)->result_array();
+		//Loop through items
+		foreach($totals as $total){
+			$formatted_data[$count]['id'] = $total['name'];
+			$formatted_data[$count]['name'] = $total['name'];
+			$formatted_data[$count]['colorByPoint'] = true;
+			//Loop through gender data
+			foreach (array('male','female') as $gender){
+				$formatted_data[$count]['data'][] = array(
+					'name' => ucwords($gender),
+					'y' => $total[$gender],
+					'drilldown' => $total['name'].'_'.$gender
+				);
+				//Get age data
+				$this->drilldown_data[] = $this->get_drilldown_age($first_column_name, $last_column_name, $total['name'], $gender);
+			}
+			$count++;
+		}
+
+		$formatted_data = array_merge($formatted_data, $this->drilldown_data);
+		return $formatted_data;
+	}
+
+	public function get_drilldown_age($first_column_name, $last_column_name, $first_column_value, $gender){
+		$tmp_data = array();
+		$formatted_age_data = array();
+		$sql = "SELECT
+					COUNT(IF(age_category = 'adult', 1, NULL)) as adult,
+					COUNT(IF(age_category = 'child', 1, NULL)) as child
+				FROM vw_patients_data
+				WHERE LOWER(REPLACE($first_column_name, ' ', '_')) = ?
+				AND gender = ?";
+		$totals = $this->db->query($sql, array($first_column_value, $gender))->result_array();
+		//Loop through totals
+		foreach($totals as $total){
+			$formatted_age_data['id'] = $first_column_value.'_'.$gender;
+			$formatted_age_data['name'] = $first_column_value.'_'.$gender;
+			$formatted_age_data['colorByPoint'] = true;
+			//Loop through age_category data
+			foreach (array('adult','child') as $age){
+				$formatted_age_data['data'][] = array(
+					'name'=> ucwords($age),
+					'y' => $total[$age],
+					'drilldown' => $first_column_value.'_'.$gender.'_'.$age
+				);
+				$this->drilldown_data[] = $this->get_last_total($first_column_name, $first_column_value,$last_column_name,  $gender, $age);
 			}
 		}
-		$this->db->where($chart_name." IS NOT ", NULL);
-		$this->db->where($metric." IS NOT ", NULL);
-		$this->db->group_by($chart_name);
-		$this->db->order_by($metric, $order);
-		$this->db->limit($limit);
-		$query = $this->db->get($view_name);
-        return $query->result_array();
+		return $formatted_age_data;
+	}
+
+	public function get_last_total($first_column_name, $first_column_value, $last_column_name, $gender, $age){
+		$formatted_total_data = array();
+		$sql = "SELECT
+					LOWER(REPLACE($last_column_name, ' ', '_')) $last_column_name,
+					COUNT(*) as total
+				FROM vw_patients_data
+				WHERE LOWER(REPLACE($first_column_name, ' ', '_')) = ?
+				AND gender = ?
+				AND age_category = ?";
+
+		$totals = $this->db->query($sql, array($first_column_value, $gender, $age))->result_array();
+		//Format data
+		$formatted_total_data['id'] = $first_column_value.'_'.$gender.'_'.$age;
+		$formatted_total_data['name'] = $first_column_value.'_'.$gender.'_'.$age;
+		$formatted_total_data['colorByPoint'] = true;
+		//Loop through totals
+		foreach($totals as $total){
+			$formatted_total_data['data'][] = array(
+				'name'=> strtoupper($total[$last_column_name]),
+				'y' => $total['total']
+			);
+		}
+		return $formatted_total_data;
 	}
 	
 }

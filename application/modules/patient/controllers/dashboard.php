@@ -14,18 +14,12 @@ class Dashboard extends MX_Controller {
 
 	}
 
-	function getData(){
+	function get_chart($type = NULL){
+		$first_item = $this->config->item($type.'_first_item');
+		$last_item = $this->config->item($type.'_last_item');
 		$json_data = array();
-		$json_data['main'] = $this->enrolled_care_model->get_source_total();
-		$json_data['drilldown'] = $this->enrolled_care_model->get_source_drilldown_gender();
+		$json_data['main'] = $this->dashboard_model->get_initial_total($first_item);
+		$json_data['drilldown'] = $this->dashboard_model->get_drilldown_gender($first_item, $last_item);
 		$this->output->set_content_type('application/json')->set_output(json_encode($json_data, JSON_NUMERIC_CHECK));
 	}
-
-	public function getART(){
-		$json_data = array();
-		$json_data['main'] = $this->enrolled_art_model->get_service_total();
-		$json_data['drilldown'] = $this->enrolled_art_model->get_service_drilldown_gender();
-		$this->output->set_content_type('application/json')->set_output(json_encode($json_data, JSON_NUMERIC_CHECK));
-	}
-
 }
