@@ -63,7 +63,7 @@
   		</div>
 	 <!-- Tab panes -->
 	<div class="tab-content">
-		<div role="tabpanel" class="tab-pane active" id="products">
+		<div role="tabpanel" class="tab-pane active" id="patient_details">
 			<div class="container-fluid">
 				<!--toprow-->
 				<div class="row">
@@ -116,29 +116,30 @@
 				</div>
 				<!-- end toprow -->
 				<!-- Start second row -->
-					<!--patients_enrolled_in_care-->
+				<div class="row">
+					<!--patients_cummulative number to date-->
 					<div class="col-sm-6">
 						<div class="chart-wrapper">
 							<div class="chart-title">
-								PATIENTS ACTIVE BY REGIMEN
+								PATIENTS CUMMULATIVE NUMBER TO DATE
 							</div>
 							<div class="chart-stage">
 								<div class="tab-content">
 									<div role="tabpanel" class="tab-pane active" id="summary_atc_code">
 										<div class="container-fluid">
 											<div class="row">
-												<div id="patients_active_by_regimen"></div>
+												<div id="patient_cumm_number"></div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="chart-notes">
-								<span class="heading"></span> PATIENTS ACTIVE BY REGIMEN
+								<span class="heading"></span> PATIENTS CUMMULATIVE NUMBER TO DATE
 							</div>
 						</div>
 					</div>
-
+				</div>
 				<!-- end of second row -->
 			</div>
 		</div>

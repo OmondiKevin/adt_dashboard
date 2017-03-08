@@ -21,4 +21,14 @@ $config['enrolled_in_art_metric_prefix'] = ' Patients';
 $config['enrolled_in_art_view_name'] = 'vw_patients_data';
 $config['enrolled_in_art_color_point'] = TRUE;
 
+/*patients cummulative number to date*/
+$config['patient_cumm_number_first_item'] = 'source';
+$config['patient_cumm_number_text'] = 'PATIENTS CUMMULATIVE NUMBER TO DATE';
+$config['patient_cumm_number_last_item'] = 'service';
+$config['patient_cumm_number_chart_type'] = 'column';
+$config['patient_cumm_number_chart_metric_title'] = 'Total Number';
+$config['patient_cumm_number_metric_prefix'] = ' Patients';
+$config['patient_cumm_number_view_name'] = 'vw_patients_data';
+$config['patient_cumm_number_color_point'] = TRUE;
+
 
