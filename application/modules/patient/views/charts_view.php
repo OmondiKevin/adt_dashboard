@@ -2,8 +2,10 @@
     $(document).ready(function(){
     	var base_url = '<?php echo base_url(); ?>';
 	    var text = "<?php echo $chart_text; ?>";
-	    var chart_name = "<?php echo $chart_name; ?>";
-	    var chart_type = "<?php echo $chart_type; ?>";
+	    var chart_name = "<?php echo $chart_name;?>";
+	    var chart_type = "<?php echo $chart_type;?>";
+	    var yAxistext ="<?php echo $metric_title;?>";
+	    var metric_title_prefix ="<?php echo $metric_title_prefix;?>";
 
     	function loadChart(type,text){    
 	    var url = base_url+'patient/dashboard/get_chart/' + type;   
@@ -40,7 +42,7 @@
 	            },
 	            yAxis: {
 	                title: {
-	                    text: 'No. of Patients'
+	                    text: 'No of Patients'
 	                }
 	            },
 	            legend: {
