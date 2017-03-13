@@ -11,12 +11,14 @@ class Dashboard extends MX_Controller {
 	}
 
 	function load_views($name){
-		$data['chart_text'] = $this->config->item($name.'_text');
+		$data['chart_text'] = strtoupper($this->config->item($name.'_text'));
 		$data['chart_name'] = $name;
 		$data['chart_type'] = $this->config->item($name.'_chart_type');
-		$data['metric_title'] = $this->config->item($name.'_metric_title');
-		$data['metric_title_prefix'] = $this->config->item($name.'_metric_title_prefix');
+		$data['chart_metric_title'] = $this->config->item($name.'_chart_metric_title');
+		$data['chart_metric_prefix'] = $this->config->item($name.'_chart_metric_prefix');
 		$this->load->view('charts_view',$data); // load the charts views from the js
+
+		// echo "<pre>"; print_r($data); die();
 
 	}
 

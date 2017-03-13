@@ -68,7 +68,7 @@
 				<!--toprow-->
 				<div class="row">
 					<!--patients_enrolled_in_care-->
-					<div class="col-sm-6">
+					<div class="col-sm-4">
 						<div class="chart-wrapper">
 							<div class="chart-title">
 								PATIENTS ENROLLED IN CARE
@@ -90,7 +90,7 @@
 						</div>
 					</div>
 					<!--patients_started_on_art-->
-					<div class="col-sm-6">
+					<div class="col-sm-4">
 						<div class="chart-wrapper">
 							<div class="chart-title">
 								PATIENTS ENROLLED IN ART
@@ -113,12 +113,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
-				<!-- end toprow -->
-				<!-- Start second row -->
-				<div class="row">
-					<!--patients_cummulative number to date-->
-					<div class="col-sm-6">
+					<div class="col-sm-4">
 						<div class="chart-wrapper">
 							<div class="chart-title">
 								PATIENTS CUMMULATIVE NUMBER TO DATE
@@ -140,7 +135,170 @@
 						</div>
 					</div>
 				</div>
+				<!-- end toprow -->
+				<!-- Start second row -->
+				<div class="row">
+					<!--patients_cummulative number to date-->
+					<div class="col-sm-4">
+						<div class="chart-wrapper">
+							<div class="chart-title">
+								PATIENTS ACTIVE BY REGIMEN
+							</div>
+							<div class="chart-stage">
+								<div class="tab-content">
+									<div role="tabpanel" class="tab-pane active" id="summary_atc_code">
+										<div class="container-fluid">
+											<div class="row">
+												<div id="patient_cumm_number"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="chart-notes">
+								<span class="heading"></span> PATIENTS ACTIVE BY REGIMEN
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="chart-wrapper">
+							<div class="chart-title">
+								PATIENTS EXPECTED VISITS
+							</div>
+							<div class="chart-stage">
+								<div class="tab-content">
+									<div role="tabpanel" class="tab-pane active" id="summary_atc_code">
+										<div class="container-fluid">
+											<div class="row">
+												<div id="patient_cumm_number"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="chart-notes">
+								<span class="heading"></span> PATIENTS EXPECTED VISITS
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="chart-wrapper">
+							<div class="chart-title">
+								PATIENTS CHANGED REGIMENS
+							</div>
+							<div class="chart-stage">
+								<div class="tab-content">
+									<div role="tabpanel" class="tab-pane active" id="summary_atc_code">
+										<div class="container-fluid">
+											<div class="row">
+												<div id="patient_cumm_number"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="chart-notes">
+								<span class="heading"></span> PATIENTS CHANGED REGIMENS
+							</div>
+						</div>
+					</div>
+				</div>
 				<!-- end of second row -->
+				<!-- Start third row -->
+				<div class="row">
+					<!--patients_cummulative number to date-->
+					<div class="col-sm-4">
+						<div class="chart-wrapper">
+							<div class="chart-title">
+								PATIENTS EARLY WARNING INDICATORS
+							</div>
+							<div class="chart-stage">
+								<div class="tab-content">
+									<div role="tabpanel" class="tab-pane active" id="summary_atc_code">
+										<div class="container-fluid">
+											<div class="row">
+												<div id="patient_cumm_number"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="chart-notes">
+								<span class="heading"></span> PATIENTS EARLY WARNING INDICATORS
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="chart-wrapper">
+							<div class="chart-title">
+								PATIENTS ADHRENCE
+							</div>
+							<div class="chart-stage">
+								<div class="tab-content">
+									<div role="tabpanel" class="tab-pane active" id="summary_atc_code">
+										<div class="container-fluid">
+											<div class="row">
+												<div id="patient_cumm_number"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="chart-notes">
+								<span class="heading"></span> PATIENTS ADHRENCE
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="chart-wrapper">
+							<div class="chart-title">
+								PATIENTS NON ADHRENCE
+							</div>
+							<div class="chart-stage">
+								<div class="tab-content">
+									<div role="tabpanel" class="tab-pane active" id="summary_atc_code">
+										<div class="container-fluid">
+											<div class="row">
+												<div id="patient_cumm_number"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="chart-notes">
+								<span class="heading"></span> PATIENTS NON ADHRENCE
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end of third row -->
+				<!-- Start third row -->
+				<div class="row">
+					<!--patients_cummulative number to date-->
+					<div class="col-sm-12">
+						<div class="chart-wrapper">
+							<div class="chart-title">
+								PATIENTS NON ADHERENCE
+							</div>
+							<div class="chart-stage">
+								<div class="tab-content">
+									<div role="tabpanel" class="tab-pane active" id="summary_atc_code">
+										<div class="container-fluid">
+											<div class="row">
+												<div id="patient_cumm_number"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="chart-notes">
+								<span class="heading"></span> PATIENTS NON ADHERENCE
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<!-- end of third row -->
 			</div>
 		</div>
 		<div role="tabpanel" class="tab-pane" id="premises">
