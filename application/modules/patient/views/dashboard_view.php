@@ -149,7 +149,7 @@
 									<div role="tabpanel" class="tab-pane active" id="summary_atc_code">
 										<div class="container-fluid">
 											<div class="row">
-												<div id="patient_cumm_number"></div>
+												<div id="patient_active_byregimen"></div>
 											</div>
 										</div>
 									</div>
@@ -170,7 +170,7 @@
 									<div role="tabpanel" class="tab-pane active" id="summary_atc_code">
 										<div class="container-fluid">
 											<div class="row">
-												<div id="patient_cumm_number"></div>
+												<div id="patient_expected_visits"></div>
 											</div>
 										</div>
 									</div>
@@ -191,7 +191,7 @@
 									<div role="tabpanel" class="tab-pane active" id="summary_atc_code">
 										<div class="container-fluid">
 											<div class="row">
-												<div id="patient_cumm_number"></div>
+												<div id="patient_changed_regimen"></div>
 											</div>
 										</div>
 									</div>
@@ -217,7 +217,7 @@
 									<div role="tabpanel" class="tab-pane active" id="summary_atc_code">
 										<div class="container-fluid">
 											<div class="row">
-												<div id="patient_cumm_number"></div>
+												<div id="patient_ealry_warn_indic"></div>
 											</div>
 										</div>
 									</div>
@@ -238,7 +238,7 @@
 									<div role="tabpanel" class="tab-pane active" id="summary_atc_code">
 										<div class="container-fluid">
 											<div class="row">
-												<div id="patient_cumm_number"></div>
+												<div id="patient_adherence"></div>
 											</div>
 										</div>
 									</div>
@@ -259,7 +259,7 @@
 									<div role="tabpanel" class="tab-pane active" id="summary_atc_code">
 										<div class="container-fluid">
 											<div class="row">
-												<div id="patient_cumm_number"></div>
+												<div id="patient_non_adhrence"></div>
 											</div>
 										</div>
 									</div>
@@ -285,7 +285,7 @@
 									<div role="tabpanel" class="tab-pane active" id="summary_atc_code">
 										<div class="container-fluid">
 											<div class="row">
-												<div id="patient_cumm_number"></div>
+												<div id="patient_lost_to_follow_up"></div>
 											</div>
 										</div>
 									</div>

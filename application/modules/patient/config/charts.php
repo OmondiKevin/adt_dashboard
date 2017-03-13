@@ -32,9 +32,9 @@ $config['patient_cumm_number_view_name'] = 'vw_patients_data';
 $config['patient_cumm_number_color_point'] = TRUE;
 
 /*patients active by regimen*/
-$config['patient_active_byregimen_first_item'] = 'source';
+$config['patient_active_byregimen_first_item'] = 'regimen_name';
 $config['patient_active_byregimen_text'] = 'patients active by regimen';
-$config['patient_active_byregimen_last_item'] = 'service';
+$config['patient_active_byregimen_last_item'] = 'age';
 $config['patient_active_byregimen_chart_type'] = 'column';
 $config['patient_active_byregimen_chart_metric_title'] = 'Total Number';
 $config['patient_active_byregimen_chart_metric_prefix'] = ' (Patients)';
@@ -72,9 +72,9 @@ $config['patient_ealry_warn_indic_view_name'] = 'vw_patients_data';
 $config['patient_ealry_warn_indic_color_point'] = TRUE;
 
 /*patients adherence*/
-$config['patient_adherence_first_item'] = 'source';
+$config['patient_adherence_first_item'] = 'patient_status';
 $config['patient_adherence_text'] = 'patients adherence';
-$config['patient_adherence_last_item'] = 'service';
+$config['patient_adherence_last_item'] = 'age';
 $config['patient_adherence_chart_type'] = 'column';
 $config['patient_adherence_chart_metric_title'] = 'Total Number';
 $config['patient_adherence_chart_metric_prefix'] = ' (Patients)';
