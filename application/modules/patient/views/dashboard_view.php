@@ -322,7 +322,7 @@
 							<label for="order" class="col-sm-4 control-label">FACILITY</label>
 							<div class="col-sm-8">
 								<select class="order form-control" id="order">
-									<option value="counry" selected="selected">Facility</option>
+									<option value="facility" selected="selected">Facility</option>
 								</select>
 							</div>
 						</div>
@@ -345,7 +345,7 @@
 							</div>
 						</div>
 						<div class="form-group">
-							<label for="limit" class="col-sm-4 control-label">ENROLLMENT DATE</label>
+							<label for="limit" class="col-sm-4 control-label">DATE</label>
 							<div class="col-sm-8">
 								<div class="input-daterange input-group" id="datepicker">
 								    <input type="text" class="input-sm form-control" name="start" />
