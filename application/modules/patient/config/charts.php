@@ -92,7 +92,7 @@ $config['patient_non_adhrence_view_name'] = 'vw_patients_data';
 $config['patient_non_adhrence_color_point'] = TRUE;
 
 /*patients lost to follow up*/
-$config['patient_lost_to_follow_up_first_item'] = 'source';
+$config['patient_lost_to_follow_up_first_item'] = 'patient_status';
 $config['patient_lost_to_follow_up_text'] = 'patients lost to follow up';
 $config['patient_lost_to_follow_up_last_item'] = 'service';
 $config['patient_lost_to_follow_up_chart_type'] = 'column';

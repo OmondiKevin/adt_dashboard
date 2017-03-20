@@ -301,91 +301,11 @@
 				<!-- end of third row -->
 			</div>
 		</div>
-		<div role="tabpanel" class="tab-pane" id="premises">
-			<div class="container-fluid">
-				<!--toprow-->
-				<div class="row">
-					<!--county_chart-->
-					<div class="col-sm-6">
-						<div class="chart-wrapper">
-							<div class="chart-title">
-								County
-							</div>
-							<div class="chart-stage">
-								<ul class="nav nav-tabs navbar-right" role="tablist" id="county_tabs">
-								    <li role="presentation" class="active">
-								    	<a href="#summary_county" aria-controls="summary_county" role="tab" data-toggle="tab">Summary</a>
-								    </li>
-								    <li role="presentation">
-								    	<a href="#list_county" aria-controls="list_county" role="tab" data-toggle="tab">Data List</a>
-								    </li>
-								</ul>
-								<div class="tab-content">
-									<div role="tabpanel" class="tab-pane active" id="summary_county">
-										<div class="container-fluid">
-											<div class="row">
-												<div id="county_chart"></div>
-											</div>
-										</div>
-									</div>
-									<div role="tabpanel" class="tab-pane" id="list_county">
-										<div class="container-fluid">
-											<div class="row">
-												<table id="county_table" class="display" cellspacing="0" width="100%"></table>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="chart-notes">
-								<span class="heading"></span> Counties
-							</div>
-						</div>
-					</div>
-					<!--cadre_chart-->
-					<div class="col-sm-6">
-						<div class="chart-wrapper">
-							<div class="chart-title">
-								Cadre
-							</div>
-							<div class="chart-stage">
-								<ul class="nav nav-tabs navbar-right" role="tablist" id="cadre_tabs">
-								    <li role="presentation" class="active">
-								    	<a href="#summary_cadre" aria-controls="summary_cadre" role="tab" data-toggle="tab">Summary</a>
-								    </li>
-								    <li role="presentation">
-								    	<a href="#list_cadre" aria-controls="list_cadre" role="tab" data-toggle="tab">Data List</a>
-								    </li>
-								</ul>
-								<div class="tab-content">
-									<div role="tabpanel" class="tab-pane active" id="summary_cadre">
-										<div class="container-fluid">
-											<div class="row">
-												<div id="cadre_chart"></div>
-											</div>
-										</div>
-									</div>
-									<div role="tabpanel" class="tab-pane" id="list_cadre">
-										<div class="container-fluid">
-											<div class="row">
-												<table id="cadre_table" class="display" cellspacing="0" width="100%"></table>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="chart-notes">
-								<span class="heading"></span> Cadres
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 	</div>
 	<!--footer-->
 	<hr>
 	<p class="small text-muted">Built by <a href="http://www.clintonhealthaccess.org" target="_blank">CHAI</a></p>
+
 	<!-- filter_modal -->
 	<div class="modal fade" id="filterModal" tabindex="-1" role="dialog" aria-labelledby="filterModalLabel">
 	  	<div class="modal-dialog" role="document">
@@ -397,6 +317,16 @@
 	      		<div class="modal-body">
 					<div id="filter_frm" class="form-horizontal">
 						<div class="auto_filter"></div><!--auto_filter-->
+						<!-- Facility filter -->
+						<div class="form-group">
+							<label for="order" class="col-sm-4 control-label">FACILITY</label>
+							<div class="col-sm-8">
+								<select class="order form-control" id="order">
+									<option value="counry" selected="selected">Facility</option>
+								</select>
+							</div>
+						</div>
+						<!-- sub county filter -->
 						<div class="form-group">
 							<label for="metric" class="col-sm-4 control-label">SUB COUNTY</label>
 							<div class="col-sm-8">
@@ -405,21 +335,12 @@
 		                        </select>
 							</div>
 						</div>
-						<!--common_filters-->
+						<!--County Filter-->
 						<div class="form-group">
 							<label for="order" class="col-sm-4 control-label">COUNTY</label>
 							<div class="col-sm-8">
 								<select class="order form-control" id="order">
 									<option value="counry" selected="selected">County</option>
-								</select>
-							</div>
-						</div>
-						<!-- Facility Name -->
-						<div class="form-group">
-							<label for="order" class="col-sm-4 control-label">FACILITY</label>
-							<div class="col-sm-8">
-								<select class="order form-control" id="order">
-									<option value="counry" selected="selected">Facility</option>
 								</select>
 							</div>
 						</div>
