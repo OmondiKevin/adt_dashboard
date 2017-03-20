@@ -12,8 +12,6 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'public/lib/bootstrap-toggle/css/bootstrap-toggle.min.css';?>" />
 	<!--keen-->
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'public/css/keen-dashboards.css';?>" />
-	<!--select2-->
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'public/lib/select2/css/select2.min.css';?>" />
 	<!--dataTables-->
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'public/lib/dataTables/css/jquery.dataTables.min.css';?>" />
 	<!-- custom css -->
@@ -21,6 +19,11 @@
 	<!-- Bootstrap DatePicker css and Js -->
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'public/lib/bootstrap-datepicker/css/bootstrap-datepicker.css';?>";">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'public/lib/bootstrap-datepicker/css/bootstrap-datepicker3.css';?>";">
+		<!--select2-->
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'public/lib/select2/css/select2.min.css';?>" />
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url().'public/css/custom.css';?>" />
+
+
 
 </head>
 	<body class="application">
@@ -319,10 +322,11 @@
 						<div class="auto_filter"></div><!--auto_filter-->
 						<!-- Facility filter -->
 						<div class="form-group">
-							<label for="order" class="col-sm-4 control-label">FACILITY</label>
+							<label for="facility" class="col-sm-4 control-label">FACILITY</label>
 							<div class="col-sm-8">
-								<select class="order form-control" id="order">
-									<option value="facility" selected="selected">Facility</option>
+								<select class="js-example-basic-multiple js-states form-control" id="id_label_multiple" multiple="multiple">
+									<option  value="AL">Alabama</option>
+									<option value="WY">Wyoming</option>
 								</select>
 							</div>
 						</div>
@@ -330,17 +334,19 @@
 						<div class="form-group">
 							<label for="metric" class="col-sm-4 control-label">SUB COUNTY</label>
 							<div class="col-sm-8">
-								<select class="form-control metric" id="metric">
-		                            <option value="subcounty" selected="selected">Sub County</option>
-		                        </select>
+								<select class="js-example-basic-multiple js-states form-control" id="id_label_multiple" multiple="multiple" >
+									<option  value="AL">Alabama</option>
+									<option value="WY">Wyoming</option>
+								</select>
 							</div>
 						</div>
 						<!--County Filter-->
 						<div class="form-group">
 							<label for="order" class="col-sm-4 control-label">COUNTY</label>
 							<div class="col-sm-8">
-								<select class="order form-control" id="order">
-									<option value="counry" selected="selected">County</option>
+								<select class="js-example-basic-multiple js-states form-control" id="id_label_multiple" multiple="multiple">
+									<option  value="AL">Alabama</option>
+									<option value="WY">Wyoming</option>
 								</select>
 							</div>
 						</div>
@@ -377,14 +383,16 @@
 	<!--spin-->
 	<script type="text/javascript" src="<?php echo base_url().'public/js/spin.min.js';?>"></script>
 	<!--select2-->
-	<script type="text/javascript" src="<?php echo base_url().'public/lib/select2/js/select2.full.min.js';?>"></script>
+	<script type="text/javascript" src="<?php echo base_url().'public/lib/select2/js/select2.min.js';?>"></script>
 	<!--dataTables-->
 	<script type="text/javascript" src="<?php echo base_url().'public/lib/dataTables/js/jquery.dataTables.min.js';?>"></script>
 	<!--disable_back_button-->
 	<script type="text/javascript" src="<?php echo base_url().'public/js/disable_back_button.js';?>"></script>
 	<!--dashboard Charts-->
 	<script type="text/javascript" src="<?php echo base_url().'public/js/dashboard.js';?>"></script>
-	
+	<script type="text/javascript">
+		$(".js-example-basic-multiple").select2({width : 'resolve'});
+	</script>
 
 </body>
 </html>
