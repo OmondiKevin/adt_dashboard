@@ -324,9 +324,8 @@
 						<div class="form-group">
 							<label for="facility" class="col-sm-4 control-label">FACILITY</label>
 							<div class="col-sm-8">
-								<select class="js-example-basic-multiple js-states form-control" id="id_label_multiple" multiple="multiple">
-									<option  value="AL">Alabama</option>
-									<option value="WY">Wyoming</option>
+								<select class="js-example-basic-multiple js-states form-control" id="facilities" multiple="multiple">
+									
 								</select>
 							</div>
 						</div>
@@ -334,9 +333,8 @@
 						<div class="form-group">
 							<label for="metric" class="col-sm-4 control-label">SUB COUNTY</label>
 							<div class="col-sm-8">
-								<select class="js-example-basic-multiple js-states form-control" id="id_label_multiple" multiple="multiple" >
-									<option  value="AL">Alabama</option>
-									<option value="WY">Wyoming</option>
+								<select class="js-example-basic-multiple js-states form-control" id="sub_county" multiple="multiple" >
+									
 								</select>
 							</div>
 						</div>

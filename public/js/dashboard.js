@@ -9,4 +9,6 @@ $().ready(function(){
 	$("#patient_adherence").load("patient/dashboard/load_views/patient_adherence");
 	$("#patient_non_adhrence").load("patient/dashboard/load_views/patient_non_adhrence");
 	$("#patient_lost_to_follow_up").load("patient/dashboard/load_views/patient_lost_to_follow_up");
+
+	// make an Ajax call to the options (facilities)
 })

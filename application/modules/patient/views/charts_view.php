@@ -8,69 +8,82 @@
 	    var metric_title_prefix ="<?php echo $chart_metric_prefix;?>";
 
     	function loadChart(type,text){    
-	    var url = base_url+'patient/dashboard/get_chart/' + type;   
-	    $.get(url,function(data){
-	        Highcharts.chart(type, {
-	            chart: {
-	                type: chart_type,
-	                events: {
-	                    drilldown: function (e) {
-	                        if (!e.seriesOptions) {
+		    var url = base_url+'patient/dashboard/get_chart/' + type;   
+		    	$.get(url,function(data){
+		        Highcharts.chart(type, {
+		            chart: {
+		                type: chart_type,
+		                events: {
+		                    drilldown: function (e) {
+		                        if (!e.seriesOptions) {
 
-	                            var chart = this,
-	                                drilldowns = data.drilldown,
-	                                series = drilldowns[e.point.name];
+		                            var chart = this,
+		                                drilldowns = data.drilldown,
+		                                series = drilldowns[e.point.name];
 
-	                            // Show the loading label
-	                            chart.showLoading('loading...');
+		                            // Show the loading label
+		                            chart.showLoading('loading...');
 
-	                            setTimeout(function () {
-	                                chart.hideLoading();
-	                                chart.addSeriesAsDrilldown(e.point, series);
-	                            }, 1000);
-	                        }
+		                            setTimeout(function () {
+		                                chart.hideLoading();
+		                                chart.addSeriesAsDrilldown(e.point, series);
+		                            }, 1000);
+		                        }
 
-	                    }
-	                }
-	            },
-	            title: {
-	                text: text
-	            },
-	            credits: false,
-	            xAxis: {
-	                type: 'category'
-	            },
-	            yAxis: {
-	                title: {
-	                    text: yAxistext + metric_title_prefix
-	                }
-	            },
-	            legend: {
-	                enabled: false
-	            },
+		                    }
+		                }
+		            },
+		            title: {
+		                text: text
+		            },
+		            credits: false,
+		            xAxis: {
+		                type: 'category'
+		            },
+		            yAxis: {
+		                title: {
+		                    text: yAxistext + metric_title_prefix
+		                }
+		            },
+		            legend: {
+		                enabled: false
+		            },
 
-	            plotOptions: {
-	                series: {
-	                    borderWidth: 0,
-	                    dataLabels: {
-	                        enabled: true
-	                    }
-	                }
-	            },
+		            plotOptions: {
+		                series: {
+		                    borderWidth: 0,
+		                    dataLabels: {
+		                        enabled: true
+		                    }
+		                }
+		            },
 
-	            series: [{
-	                name: 'Regimen',
-	                colorByPoint: true,
-	                data: data.main
-	            }],
+		            series: [{
+		                name: 'Regimen',
+		                colorByPoint: true,
+		                data: data.main
+		            }],
 
-	            drilldown: {
-	                series: data.drilldown
-	            }
-	        });
-	    });
-	}              
-    loadChart(chart_name,text);
+		            drilldown: {
+		                series: data.drilldown
+		            }
+		        });
+		    });
+		}              
+	    loadChart(chart_name,text);
+	    function load_facilities(){
+	    	var url = base_url+'patient/dashboard/getFacilitiesJson';  
+	    	$.ajax({
+	           type: "POST",
+	           url: url,
+	           dataType: "json",
+	           success: function (data) {
+	               $('#facilities').html(data);
+	           }
+	       });
+	    }
+	    load_facilities();
+	    
     });
 </script>
 

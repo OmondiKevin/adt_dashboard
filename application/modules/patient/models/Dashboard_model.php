@@ -101,5 +101,42 @@ class Dashboard_model extends CI_Model {
 		}
 		return $formatted_total_data;
 	}
+
+	// getAll the facilities
+	public function get_facilities($sub_county, $county){
+		$filter = "";
+		
+		if($sub_county!='0' && $county!='0'){
+			$filter.=" WHERE sub_county_id = '$sub_county' and county_id='$county'";
+		}else if($sub_county!='0'){
+			$filter.=" WHERE sub_county_id = '$sub_county'";
+		}else if($county!='0'){
+			$filter.=" WHERE county_id='$county'";
+		}
+		$sql = "SELECT DISTINCT
+				   facility_id, facility_name
+				FROM
+				    vw_facilities_data $filter";	    
+	    $query = $this->db->query($sql);
+	    return $query->result_array();
+	}
+	// getAll the sub_counties
+	public function get_sub_counties(){
+		$sql = "SELECT DISTINCT
+				    sub_county_id, sub_county_name
+				FROM
+				    vw_facilities_data;";
+	    $query = $this->db->query($sql);
+	    return $query->result_array();
+	}
+	// getAll the counties
+	public function get_counties(){
+		$sql = "SELECT DISTINCT
+				    county_id, county_name
+				FROM
+				    vw_facilities_data;";
+	    $query = $this->db->query($sql);
+	    return $query->result_array();
+	}
 	
 }

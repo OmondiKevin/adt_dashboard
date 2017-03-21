@@ -7,7 +7,6 @@ class Dashboard extends MX_Controller {
 	{
 		$data['page_title'] = "ADT Dashboard";
 		$this->load->view('dashboard_view', $data);
-
 	}
 
 	function load_views($name){
@@ -18,8 +17,6 @@ class Dashboard extends MX_Controller {
 		$data['chart_metric_prefix'] = $this->config->item($name.'_chart_metric_prefix');
 		$this->load->view('charts_view',$data); // load the charts views from the js
 
-		// echo "<pre>"; print_r($data); die();
-
 	}
 
 	function get_chart($type = NULL){
@@ -29,5 +26,16 @@ class Dashboard extends MX_Controller {
 		$json_data['main'] = $this->dashboard_model->get_initial_total($first_item);
 		$json_data['drilldown'] = $this->dashboard_model->get_drilldown_gender($first_item, $last_item);
 		$this->output->set_content_type('application/json')->set_output(json_encode($json_data, JSON_NUMERIC_CHECK));
+	}
+
+	function getFacilitiesJson($sub_county = 0, $county = 0){
+		$facilities = $this->dashboard_model->get_facilities($sub_county,$county);	
+		$option ="";
+		foreach ($facilities as $key => $value) {
+			$name = $value['facility_name'];
+			$name = str_replace("'", "\'", $name);
+			$option.='<option value="'.$value['facility_id'].'">'.$name.'</option>';
+		}	
+		echo json_encode($option);
 	}
 }
