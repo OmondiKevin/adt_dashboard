@@ -121,11 +121,16 @@ class Dashboard_model extends CI_Model {
 	    return $query->result_array();
 	}
 	// getAll the sub_counties
-	public function get_sub_counties(){
+	public function get_sub_counties($county){
+		$filter = "";
+
+		if($county!='0'){
+			$filter.=" WHERE county_id='$county'";
+		}
 		$sql = "SELECT DISTINCT
 				    sub_county_id, sub_county_name
 				FROM
-				    vw_facilities_data;";
+				    vw_facilities_data $filter;";
 	    $query = $this->db->query($sql);
 	    return $query->result_array();
 	}

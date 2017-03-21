@@ -38,4 +38,25 @@ class Dashboard extends MX_Controller {
 		}	
 		echo json_encode($option);
 	}
+
+	function getSub_countyJson($county = 0){
+		$sub_counties = $this->dashboard_model->get_sub_counties($county);	
+		$option ="";
+		foreach ($sub_counties as $key => $value) {
+			$name = $value['sub_county_name'];
+			$name = str_replace("'", "\'", $name);
+			$option.='<option value="'.$value['sub_county_id'].'">'.$name.'</option>';
+		}	
+		echo json_encode($option);
+	}
+	function getCountyJson(){
+		$county = $this->dashboard_model->get_counties();	
+		$option ="";
+		foreach ($county as $key => $value) {
+			$name = $value['county_name'];
+			$name = str_replace("'", "\'", $name);
+			$option.='<option value="'.$value['county_id'].'">'.$name.'</option>';
+		}	
+		echo json_encode($option);
+	}
 }

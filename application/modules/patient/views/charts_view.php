@@ -71,8 +71,9 @@
 		    });
 		}              
 	    loadChart(chart_name,text);
+
 	    function load_facilities(){
-	    	var url = base_url+'patient/dashboard/getFacilitiesJson';  
+	    	var url = base_url+'patient/dashboard/getFacilitiesJson'; 
 	    	$.ajax({
 	           type: "POST",
 	           url: url,
@@ -83,6 +84,30 @@
 	       });
 	    }
 	    load_facilities();
+	    function load_sub_counties(){
+	    	var url = base_url+'patient/dashboard/getSub_countyJson'; 
+	    	$.ajax({
+	           type: "POST",
+	           url: url,
+	           dataType: "json",
+	           success: function (data) {
+	               $('#sub_county').html(data);
+	           }
+	       });
+	    }
+	    load_sub_counties();
+	    function load_counties(){
+	    	var url = base_url+'patient/dashboard/getCountyJson'; 
+	    	$.ajax({
+	           type: "POST",
+	           url: url,
+	           dataType: "json",
+	           success: function (data) {
+	               $('#county').html(data);
+	           }
+	       });
+	    }
+	    load_counties();
 	    
     });
 </script>
